@@ -7,6 +7,8 @@
   * learn to use Ubuntu within WSL
   * also learn to use Ubuntu
 
+* bash
+
 * git
   * squash / rebase
 
