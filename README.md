@@ -3,7 +3,7 @@
 * Fancy README.md
   * How can I make good readme files that can be used as website presentable
 
-* WSL / Ubuntu
+* WSL / Ubuntu - [learn_ubuntu](https://github.com/francisco-camargo/learn_ubuntu)
   * learn to use Ubuntu within WSL
   * also learn to use Ubuntu
 
