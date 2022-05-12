@@ -1,8 +1,6 @@
 # Current and Future Projects
 
 ## Dev Tools
-* Fancy README.md
-  * How can I make good readme files that can be used as website presentable
 
 * WSL / Ubuntu - [learn_ubuntu](https://github.com/francisco-camargo/learn_ubuntu)
   * learn to use Ubuntu within WSL
@@ -14,9 +12,11 @@
   * squash / rebase
 
 * GitHub
-  * projects
-  * hooks / actions
-  * codespace
+  * Webpages from README.md files
+    * GitHub Pages, [guide](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
+  * Projects
+  * Hooks / Actions
+  * [Codespace](https://github.com/features/codespaces)
 
 * VSCode
 
