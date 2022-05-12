@@ -1,5 +1,6 @@
 # Current and Future Projects
 
+## Dev Tools
 * Fancy README.md
   * How can I make good readme files that can be used as website presentable
 
@@ -25,6 +26,14 @@
 * Cloud compute
   * Spark? distributed compute
 
+* Make Python packages and publish
+
+## Data Science / Machine Learning
+
 * Dataiku
 
-* Make Python package and publish
+* PyTorch / TensorFlow
+
+* Time Series models
+
+* Reinforcement Learning
