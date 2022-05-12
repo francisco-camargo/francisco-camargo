@@ -10,6 +10,11 @@
 * git
   * squash / rebase
 
+* GitHub
+  * projects
+  * hooks / actions
+  * codespace
+
 * VSCode
 
 * Deploy code to a server
