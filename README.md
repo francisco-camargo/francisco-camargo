@@ -6,8 +6,7 @@
   * Learn to use Ubuntu within WSL and as its own OS install
   * Learn how to use `git rebase` to squash multiple commits together
   * Learn to use Vim to edit text
-
-* bash
+  * Python packaging
 
 * GitHub
   * Webpages from README.md files
@@ -23,8 +22,6 @@
 
 * Cloud compute
   * Spark? distributed compute
-
-* Make Python packages and publish
 
 ## Data Science / Machine Learning
 
