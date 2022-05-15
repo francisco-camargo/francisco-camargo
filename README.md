@@ -3,13 +3,11 @@
 ## Dev Tools
 
 * WSL / Ubuntu - [learn_ubuntu](https://github.com/francisco-camargo/learn_ubuntu)
-  * learn to use Ubuntu within WSL
-  * also learn to use Ubuntu
+  * Learn to use Ubuntu within WSL and as its own OS install
+  * Learn how to use `git rebase` to squash multiple commits together
+  * Learn to use Vim to edit text
 
 * bash
-
-* git
-  * squash / rebase
 
 * GitHub
   * Webpages from README.md files
