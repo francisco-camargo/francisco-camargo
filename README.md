@@ -14,6 +14,9 @@
   * Georgia Tech - CS7643 Deep Learning
   * [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
   * Georgia Tech - CS7641 Machine Learning
+    * p1 - Supervised Learning
+      * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p1-supervised-learning-src)
+      * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p1-supervised-learning-report)
 
 # Development Workflow
 In my [dev-workflow](https://github.com/francisco-camargo/dev-workflow) repo I cover setting up and working with several ubiquitous tools used for Data Science.
