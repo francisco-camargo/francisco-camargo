@@ -12,6 +12,10 @@
   * [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
   * [Georgia Tech - CS7646 Machine Learning for Trading](https://github.com/francisco-camargo/cs7646-ml4t)
   * Georgia Tech - CS7643 Deep Learning
+    * Fully-Connected Neural Network from Scratch
+    * Convolutional Neural Network for Image Classification
+    * Neural Network Visualization and Style Transfer
+    * Natural Language Processing
   * [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
   * Georgia Tech - CS7641 Machine Learning
     * Supervised Learning
