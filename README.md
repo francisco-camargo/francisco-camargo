@@ -18,8 +18,8 @@
       * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p1-supervised-learning-src)
       * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p1-supervised-learning-report)
     * Randomized Optimization
-      * [Source code]()
-      * [Report]()
+      * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p2-randomized-optimization-src)
+      * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p2-randomized-optimization-report)
     * Unsupervised Learning
       * [Source code]()
       * [Report]()
