@@ -21,11 +21,11 @@
       * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p2-randomized-optimization-src)
       * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p2-randomized-optimization-report)
     * Unsupervised Learning
-      * [Source code]()
-      * [Report]()
+      * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p3-unsupervised-learning-src)
+      * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p3-unsupervised-learning-report)
     * Markov Processes
-      * [Source code]()
-      * [Report]()
+      * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-src)
+      * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-report)
 
 # Development Workflow
 In my [dev-workflow](https://github.com/francisco-camargo/dev-workflow) repo I cover setting up and working with several ubiquitous tools used for Data Science.
