@@ -56,4 +56,5 @@
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
 
 # Development Workflow
-[dev-workflow](https://github.com/francisco-camargo/dev-workflow): how to install and set up several ubiquitous tools used for Data Science
+* [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
+  * How to install and set up several ubiquitous tools used for Data Science
