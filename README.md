@@ -27,6 +27,7 @@
     * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-src)
     * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-report)
 
+[Learning Material](learning_material.md)
 ## Docker
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)

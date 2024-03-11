@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: page
 title: "Learning Material"
 permalink: /learning-material/
----
+--- -->
 
 # Learning Material
 * [Software testing](src/testing/README.md)
