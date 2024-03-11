@@ -27,27 +27,7 @@
     * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-src)
     * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-report)
 
-[Learning Material](learning_material.md)
-## Docker
-* [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
-* [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-* [docker-build-images](https://github.com/francisco-camargo/docker-build-images)
-* [vidly](https://github.com/francisco-camargo/vidly)
-* [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
-
-## Python
-* [Python installation](src/python/README.md)
-* [Testing](src/python/testing/README.md)
-* [pre-commit](src/python/pre-commit/README.md)
-* [FastAPI](fastapi/README.md)
-  * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
-  * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
-  * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
-  * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
-
-## Data Engineering
-* [Basic SQL](https://github.com/francisco-camargo/learn-sql)
-* [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
+# [Learning Material](learning_material.md)
 
 # Development Workflow
 * [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
