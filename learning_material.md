@@ -19,7 +19,7 @@ Learning Material
 * [Testing](src/python/testing/README.md)
 * [pre-commit](src/python/pre-commit/README.md)
 
-# [FastAPI](fastapi/README.md)
+# [FastAPI](src/fastapi/README.md)
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
