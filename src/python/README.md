@@ -9,7 +9,7 @@ Python
 
 During installation, be sure to add Python to PATH:
 
-![1670921358303](../../image/README/1670921358303.png)
+![1670921358303](1670921358303.png)
 
 Check the version of Python. Note that it can have different aliases, e.g. `python`, `py`, `python3` etc.
 
@@ -20,8 +20,7 @@ python --version
 
 If you use VSCode, be sure that the desired Python Interpreter is used: from the Command Pallette search for `Python: Select Interpreter`. Can check the bottom right of the window:
 
-![1670921755378](../../image/README/1670921755378.png)
-
+![1670921755378](1670921755378.png)
 # Install Python on Ubuntu
 
 We do want to install python within WSL: [guide](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
@@ -134,7 +133,7 @@ import main; main.main()
 
 The [documentation](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html) for `black` suggests that we can use a `pyproject.toml` file to replace both `setup.py` and `setup.cfg` files.
 
-![1670897817471](../../image/README/1670897817471.png)
+![1670897817471](1670897817471.png)
 
 # Packaging
 
