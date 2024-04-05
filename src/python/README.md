@@ -21,13 +21,21 @@ python --version
 If you use VSCode, be sure that the desired Python Interpreter is used: from the Command Pallette search for `Python: Select Interpreter`. Can check the bottom right of the window:
 
 ![1670921755378](1670921755378.png)
-# Install Python on Ubuntu
+# Install Python on WSL
 
-We do want to install python within WSL: [guide](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
+[Guide](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
 
 give an [alias](https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3?newreg=a3ae2d11b44641baba3120c0f6ca6111)
 
 `alias python = python3.10`
+
+[Guide](https://stackoverflow.com/questions/63591163/python3-pip-has-no-installation-candidate) to install `pip`
+
+```shell
+sudo apt-get update
+sudo apt-get upgrade # not needed according to guide, but may as well
+sudo apt install python3-pip
+```
 
 # Python Code Environment
 
