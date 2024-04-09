@@ -45,11 +45,19 @@ To create an environment via the terminal, use
 
 `python -m venv env`
 
-To activate environment, use
+On Ubuntu, you may need to install `python3-venv`, [link](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu)
+
+`sudo apt install python3-venv`
+
+To activate environment in Windows, use
 
 `env/Scripts/activate`
 
 In `git bash` may have to use `. env/Scripts/activate`
+
+In Ubuntu use
+
+`env/bin/activate`
 
 To update `pip`, use
 
