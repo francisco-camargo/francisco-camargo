@@ -7,6 +7,10 @@ Learning Material
 * [Georgia Tech - CS6515 Graduate Algorithms](https://github.com/francisco-camargo/cs6515-intro-grad-algo)
 * [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
 
+# Development Workflow
+* [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
+  * How to install and set up several ubiquitous tools used for Data Science
+
 # Docker
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
