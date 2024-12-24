@@ -20,8 +20,8 @@ Learning Material
 # Docker
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-* [docker-build-images](https://github.com/francisco-camargo/docker-build-images)
-* [vidly](https://github.com/francisco-camargo/vidly)
+* Building images and working with containers - [docker-build-images](https://github.com/francisco-camargo/docker-build-images)
+* Running multi-container applications - [vidly](https://github.com/francisco-camargo/vidly)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 
