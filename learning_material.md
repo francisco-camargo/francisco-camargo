@@ -23,6 +23,7 @@ Learning Material
 * [docker-build-images](https://github.com/francisco-camargo/docker-build-images)
 * [vidly](https://github.com/francisco-camargo/vidly)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
+* [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 
 # [FastAPI](src/fastapi/README.md)
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
