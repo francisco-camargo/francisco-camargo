@@ -28,7 +28,3 @@
     * [Report](https://github.com/francisco-camargo/cs7641-machine-learning-p4-markov-processes-report)
 
 # [Learning Material](learning_material.md)
-
-# Development Workflow
-* [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
-  * How to install and set up several ubiquitous tools used for Data Science
