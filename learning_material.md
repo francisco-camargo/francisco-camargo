@@ -1,11 +1,8 @@
 Learning Material
-===
+=================
 
-* [Software testing](src/testing/README.md)
-* [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
-* [Georgia Tech - ISYE6644 Simulation and Statistics](https://github.com/francisco-camargo/isye6644-simulation)
-* [Georgia Tech - CS6515 Graduate Algorithms](https://github.com/francisco-camargo/cs6515-intro-grad-algo)
-* [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
+# Project Ideas
+* GitHub Actions / GitLab CI/CD
 
 # Development Workflow
 * [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
@@ -33,8 +30,14 @@ Learning Material
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
-# Technical Presentations for a General Audience
+# Misc
+* [Software testing](src/testing/README.md)
+* [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
+* [Georgia Tech - ISYE6644 Simulation and Statistics](https://github.com/francisco-camargo/isye6644-simulation)
+* [Georgia Tech - CS6515 Graduate Algorithms](https://github.com/francisco-camargo/cs6515-intro-grad-algo)
+* [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
 
+# Technical Presentations for a General Audience
 * Have a slide or two to introduce yourself and your team. You can consider this talk as an opportunity to do marketing for you and your team; sell us on the notion that you are doing good work and inform us as to when the rest of the company should think to reach out to you
 * What are the 2 or 3 big points that you want the audience to think about after the talk is over. If they were to summarize your presentation to someone else, what would you want them to say? I strongly recommend that you write these down for yourself and as you put slides together, ask yourself "is this content in service of the main points I want my audience to take away?"
 * Assume that the audience is not familiar with your domain; there are audience members from across the whole company. We have members coming from very different departments; finance, supply chain, HR, engineering, etc. So keep this in mind when introducing the problem.
