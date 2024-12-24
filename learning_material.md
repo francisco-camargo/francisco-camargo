@@ -11,6 +11,15 @@ Learning Material
 * [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
   * How to install and set up several ubiquitous tools used for Data Science
 
+# Python
+* [Python installation](src/python/README.md)
+* [Testing](src/python/testing/README.md)
+* [pre-commit](src/python/pre-commit/README.md)
+
+# Data Engineering
+* [Basic SQL](https://github.com/francisco-camargo/learn-sql)
+* [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
+
 # Docker
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
@@ -18,20 +27,11 @@ Learning Material
 * [vidly](https://github.com/francisco-camargo/vidly)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 
-# Python
-* [Python installation](src/python/README.md)
-* [Testing](src/python/testing/README.md)
-* [pre-commit](src/python/pre-commit/README.md)
-
 # [FastAPI](src/fastapi/README.md)
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
-
-# Data Engineering
-* [Basic SQL](https://github.com/francisco-camargo/learn-sql)
-* [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
 
 # Technical Presentations for a General Audience
 
