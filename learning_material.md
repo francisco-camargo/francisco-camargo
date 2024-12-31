@@ -20,8 +20,8 @@ Learning Material
 # Docker
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-* Docker Fundamentals - [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-* Running multi-container applications - [multi-container-application](https://github.com/francisco-camargo/multi-container-application)
+* [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
+* [multi-container-application](https://github.com/francisco-camargo/multi-container-application)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 
