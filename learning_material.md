@@ -23,6 +23,7 @@ Learning Material
 * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
 * [multi-container-application](https://github.com/francisco-camargo/multi-container-application)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
+* [Python language-specific guide](https://docs.docker.com/guides/python/)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 
 # [FastAPI](src/fastapi/README.md)
