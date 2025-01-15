@@ -22,7 +22,7 @@ Learning Material
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
   * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
   * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-  * Multi-Container Application: [vidly](https://github.com/francisco-camargo/vidly)
+  * Multi-Container Application via `docker-compose`: [vidly](https://github.com/francisco-camargo/vidly)
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Python language-specific guide](https://docs.docker.com/guides/python/)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
