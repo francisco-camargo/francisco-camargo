@@ -26,6 +26,7 @@ Learning Material
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Python language-specific guide](https://docs.docker.com/guides/python/)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
+* [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
 # [FastAPI](src/fastapi/README.md)
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
