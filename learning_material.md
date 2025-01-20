@@ -24,6 +24,9 @@ Learning Material
   * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
   * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker-compose`
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
+* [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
+
+## Docker for Python
 * [Python language-specific guide](https://docs.docker.com/guides/python/)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
