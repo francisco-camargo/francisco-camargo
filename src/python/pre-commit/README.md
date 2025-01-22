@@ -43,6 +43,12 @@ pre-commit run --all-files
 
 This can be useful if you want to run the hooks without actually making a new `git commit`
 
+If you want to make a commit without running `pre-commit`, use the `--no-verify` option, e.g.
+
+```bash
+git commit --no-verify
+```
+
 If in the future you add more hooks to `.pre-commit-config.yaml`, you don't have to re-run `pre-commit install`.
 
 [Guide](https://stackoverflow.com/questions/61032281/exclude-some-files-on-running-black-using-pre-commit) to exclude specific folders from being checked during run of `pre-commit`
