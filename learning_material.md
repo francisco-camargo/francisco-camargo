@@ -27,6 +27,8 @@ Learning Material
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
+* Use Docker for dev work
+* Use Docker to dev on local machine while hosting container on Cloud
 * [Python language-specific guide](https://docs.docker.com/guides/python/)
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
