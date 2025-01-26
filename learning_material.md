@@ -2,22 +2,27 @@ Learning Material
 =================
 
 # Project Ideas
+
 * GitHub Actions / GitLab CI/CD
 
 # Development Workflow
-* [dev-workflow](https://github.com/francisco-camargo/dev-workflow)
+
+* [dev-workflow](dec_workflow.md)
   * How to install and set up several ubiquitous tools used for Data Science
 
 # Python
+
 * [Python installation](src/python/README.md)
 * [Testing](src/python/testing/README.md)
 * [pre-commit](src/python/pre-commit/README.md)
 
 # Data Engineering
+
 * [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
 
 # Docker
+
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
   * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
@@ -27,6 +32,7 @@ Learning Material
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
+
 * Use Docker for dev work
 * Use Docker to dev on local machine while hosting container on Cloud
 * [Python language-specific guide](https://docs.docker.com/guides/python/)
@@ -34,12 +40,14 @@ Learning Material
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
 # [FastAPI](src/fastapi/README.md)
+
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
 # Misc
+
 * [Software testing](src/testing/README.md)
 * [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
 * [Georgia Tech - ISYE6644 Simulation and Statistics](https://github.com/francisco-camargo/isye6644-simulation)
@@ -47,6 +55,7 @@ Learning Material
 * [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
 
 # Technical Presentations for a General Audience
+
 * Have a slide or two to introduce yourself and your team. You can consider this talk as an opportunity to do marketing for you and your team; sell us on the notion that you are doing good work and inform us as to when the rest of the company should think to reach out to you
 * What are the 2 or 3 big points that you want the audience to think about after the talk is over. If they were to summarize your presentation to someone else, what would you want them to say? I strongly recommend that you write these down for yourself and as you put slides together, ask yourself "is this content in service of the main points I want my audience to take away?"
 * Assume that the audience is not familiar with your domain; there are audience members from across the whole company. We have members coming from very different departments; finance, supply chain, HR, engineering, etc. So keep this in mind when introducing the problem.

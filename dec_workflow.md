@@ -6,6 +6,7 @@ Development Workflow
 Francisco Camargo
 
 # Table of Contents
+
 * [git](src/git/README.md)
 * [Markdown](src/markdown/README.md)
 * [LaTeX](src/latex/README.md)
