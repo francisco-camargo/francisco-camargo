@@ -20,23 +20,23 @@ Learning Material
 # [Vim](src/vim/README.md)
 
 # Project template
-  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
-  * `pre-commit install`
-  * set up `venv` and install packages
-  * `.gitignore`
-  * `.gitconfig`
-  * `README.md`
+* [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+* `pre-commit install`
+* set up `venv` and install packages
+* `.gitignore`
+* `.gitconfig`
+* `README.md`
 
 # Terminal
-  * To print out a tree view of the current directory use the `tree` command
+* To print out a tree view of the current directory use the `tree` command
 
 # Data Versioning
-  * DVC (Data Version Control)
-  * Guild.ai
+* DVC (Data Version Control)
+* Guild.ai
 
 # Cloud
-  * [Terraform](src/terraform/README.md)
-  * AWS
+* [Terraform](src/terraform/README.md)
+* AWS
     * [AWS CLI](src/aws/aws_cli/README.md)
     * [AWS CDK](src/aws/cdk/README.md)
     * [SageMaker](src/aws/sagemaker/README.md)
@@ -56,9 +56,9 @@ Learning Material
 
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
-  * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-  * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-  * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
+    * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
+    * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
+    * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
 * [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
