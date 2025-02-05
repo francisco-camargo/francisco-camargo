@@ -73,8 +73,6 @@ To deactivate an active environment, use
 
 # Importing local code from other directories
 
-Good [write-up](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time). I current understanding is that Whatever script is `__main__`, it will not be able to utilize relative imports.
-
 Assume you have the following folder structure:
 
 ```shell
@@ -90,14 +88,26 @@ parent
     scriptD.py
 ```
 
-If you are in `scriptA.py` and
+and the current working directory is `folder1`.
 
-* want `scriptB.py`, use `import scriptB`
-* want `scriptF.py`, use `import folder3.scriptF`
-* want `scriptE.py`, you _must_ use the `from` syntax; `from ..scriptE import *`
-* want `scriptC.py`, use `from ..folder2.scriptC`
+If you need to run from a submodule directly such that `__name__` is `'__main__'`, try adding the parent directory to the system path
+```python
+try:
+    from folder1.folder3 import scriptF
+except ModuleNotFoundError as e:
+    sys.path.append(os.getcwd())
+    from folder1.folder3 import scriptF
+```
 
-Here are some useful commands to help debug some of this
+If you want to do relative imports: good [write-up](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time). My current understanding is that whatever script is `'__main__'` will not be able to utilize relative imports!
+
+Again assume the current working directory is `folder1`:
+* For `scriptB.py`, use `import scriptB`
+* For `scriptF.py`, use `import folder3.scriptF`
+* For `scriptE.py`, you _must_ use the `from` syntax; `from ..scriptE import *`
+* For `scriptC.py`, use `from ..folder2.scriptC`
+
+Here are some useful commands to help debug some of these issues:
 
 ```python
     import sys
