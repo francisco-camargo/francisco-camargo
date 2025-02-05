@@ -240,3 +240,22 @@ Want to be able to use sklearn without having to switch back and forth between n
 # Model based testing
 
 There is the `hypothesis` python package. [Docs](https://hypothesis.readthedocs.io/en/latest/), [demonstration](https://youtu.be/-S3BFkNn0rQ)
+
+# Logging
+
+Very simple logging.
+
+```python
+import logging
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
+
+logger.info('Added an entry to the logger')
+```
+
+Don't pass logger around as a funciton input, instead use the above boilerplate (or better...)
+
