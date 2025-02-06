@@ -243,7 +243,9 @@ There is the `hypothesis` python package. [Docs](https://hypothesis.readthedocs.
 
 # Logging
 
-Very simple logging.
+Don't pass logger around as a funciton input, instead import `logger` into each script of interest
+
+Very simple logging:
 
 ```python
 import logging
@@ -257,5 +259,52 @@ logging.basicConfig(
 logger.info('Added an entry to the logger')
 ```
 
-Don't pass logger around as a funciton input, instead use the above boilerplate (or better...)
+More sophisticated logging:
+```python
+"""
+Logging Configuration Module
+
+This module sets up a centralized logging configuration for use across the application.
+It configures a logger that writes to both a file (overwriting it on each run) and the console.
+The timestamp in log messages is set to GMT (UTC) time.
+Log messages include the filename and line number instead of the logger name.
+
+The module provides a pre-configured logger object that can be imported and used in other modules.
+
+To use this in another script
+  from src.logging.log_config import logger
+  logger.info('Write this to the log')
+
+Attributes:
+    logger (logging.Logger): A configured logger object for use across the application.
+"""
+
+import logging
+import sys
+from time import gmtime
+
+# Configure the logger
+logging.Formatter.converter = gmtime  # Set time to GMT
+
+# Create a logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# Create file handler which logs even debug messages
+file_handler = logging.FileHandler('src/logging/app.log', mode='w')
+file_handler.setLevel(logging.INFO)
+
+# Create console handler with a higher log level
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setLevel(logging.INFO)
+
+# Create formatter and add it to the handlers
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d\n\t%(message)s')
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Add the handlers to the logger
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+```
 
