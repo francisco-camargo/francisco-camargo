@@ -132,6 +132,15 @@ When accessing resources via `boto3`, credentials are needed. [Here](https://bot
 
 2024-01-12 I onboarded someone to AWS and they were able to use `boto3` to pull data from S3 without having to set up credentials. I suspect it depends on how the AWS account was set up.
 
+2025-02-13 To run code using `boto3` via AWS SSO: 
+* Have `.aws/config` set up for AWS SSO
+* Login to AWS SSO (e.g. `aws sso login --profile <profile>`)
+* Now can run Python code
+```python
+boto3.setup_default_session(profile_name)
+bedrock_runtime = boto3.client(service_name)
+```
+
 # Summary
 
 Currently I have three places of interest where a "profile" needs to be specified.
