@@ -5,7 +5,7 @@ repos:
     rev: v5.0.0
     hooks:
     -   id: check-yaml
-    -   id: check-added-large-filesC:\git\bitbucket\cold-insertion-elimination\ml_pipelines\training\preprocess\preprocess.py
+    -   id: check-added-large-files
     -   id: debug-statements
 -   repo: https://github.com/psf/black
     rev: 24.10.0
@@ -29,7 +29,7 @@ repos:
       - id: interrogate
         args: [-vv, --ignore-init-method, --fail-under=100]
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.13.0
+    rev: v1.14.1
     hooks:
     -   id: mypy
         files: ^src/
