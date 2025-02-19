@@ -20,6 +20,7 @@ Learning Material
 # [Vim](src/vim/README.md)
 
 # Project template
+
 * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
 * `pre-commit install`
 * set up `venv` and install packages
@@ -28,32 +29,36 @@ Learning Material
 * `README.md`
 
 # Terminal
+
 * To print out a tree view of the current directory use the `tree` command
 
 # Data Versioning
+
 * DVC (Data Version Control)
 * Guild.ai
 
 # MLOps
+
 * Orchestration
 * Monitoring
-The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
+  The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
 
-    1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
-    2. **DevOps Engineer** – Implements and maintains LGTM for observability in CI/CD pipelines and cloud infrastructure.
-    3. **Cloud/Infrastructure Engineer** – Uses LGTM for managing cloud environments and infrastructure monitoring.
-    4. **Platform Engineer** – Integrates LGTM into internal developer platforms for better operational insights.
-    5. **Security Engineer** – Analyzes logs and traces for security incidents and anomaly detection.
-    6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
+  1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
+  2. **DevOps Engineer** – Implements and maintains LGTM for observability in CI/CD pipelines and cloud infrastructure.
+  3. **Cloud/Infrastructure Engineer** – Uses LGTM for managing cloud environments and infrastructure monitoring.
+  4. **Platform Engineer** – Integrates LGTM into internal developer platforms for better operational insights.
+  5. **Security Engineer** – Analyzes logs and traces for security incidents and anomaly detection.
+  6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
 
 Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
 
 # Cloud
+
 * [Terraform](src/terraform/README.md)
 * AWS
-    * [AWS CLI](src/aws/aws_cli/README.md)
-    * [AWS CDK](src/aws/cdk/README.md)
-    * [SageMaker](src/aws/sagemaker/README.md)
+  * [AWS CLI](src/aws/aws_cli/README.md)
+  * [AWS CDK](src/aws/cdk/README.md)
+  * [SageMaker](src/aws/sagemaker/README.md)
 
 # Python
 
@@ -70,10 +75,10 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
-    * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-    * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-    * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
-* [sample-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
+  * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
+  * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
+  * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
+* [premade-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
