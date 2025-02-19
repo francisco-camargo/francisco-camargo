@@ -4,6 +4,7 @@ Learning Material
 # Project Ideas
 
 * GitHub Actions / GitLab CI/CD
+* [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
 
 # [git](src/git/README.md)
 
