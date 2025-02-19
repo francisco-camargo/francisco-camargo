@@ -1,3 +1,5 @@
+# [Learning Material](learning_material.md)
+
 # Projects
 
 ## Machine Learning
@@ -26,5 +28,3 @@
     * [Warehouse](https://github.com/francisco-camargo/cs7638-ai4r-p4-warehouse)
     * [Ice Rover](https://github.com/francisco-camargo/cs7638-ai4r-p5-icerover)
 * [Georgia Tech - CS7646 Machine Learning for Trading](https://github.com/francisco-camargo/cs7646-ml4t)
-
-# [Learning Material](learning_material.md)

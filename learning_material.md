@@ -34,6 +34,20 @@ Learning Material
 * DVC (Data Version Control)
 * Guild.ai
 
+# MLOps
+* Orchestration
+* Monitoring
+The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
+
+    1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
+    2. **DevOps Engineer** – Implements and maintains LGTM for observability in CI/CD pipelines and cloud infrastructure.
+    3. **Cloud/Infrastructure Engineer** – Uses LGTM for managing cloud environments and infrastructure monitoring.
+    4. **Platform Engineer** – Integrates LGTM into internal developer platforms for better operational insights.
+    5. **Security Engineer** – Analyzes logs and traces for security incidents and anomaly detection.
+    6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
+
+Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
+
 # Cloud
 * [Terraform](src/terraform/README.md)
 * AWS
