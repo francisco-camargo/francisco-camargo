@@ -78,7 +78,8 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
   * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
   * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
   * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
-* [premade-db-with-docker](https://github.com/francisco-camargo/sample-db-with-docker)
+* [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
+* [toy-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
