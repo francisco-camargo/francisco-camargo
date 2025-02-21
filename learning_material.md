@@ -5,6 +5,15 @@ Learning Material
 
 * GitHub Actions / GitLab CI/CD
 * [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
+* Python project setup; `setup.py`, `.tox`, `project.toml`
+  * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
+* Deploy container to EC2
+* Be able to develop in remote Dockerized code-base
+* Database migration with Alembic: Chapter 6, building data science applications with fastapi
+  * FastAPI Ch 10
+	* FastAPI app with Docker
+		* Bigger apps
+			* https://fastapi.tiangolo.com/tutorial/bigger-applications/
 
 # [git](src/git/README.md)
 
