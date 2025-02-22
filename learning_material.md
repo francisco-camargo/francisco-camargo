@@ -17,52 +17,7 @@ Learning and Reference Material
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 
-# [git](src/git/README.md)
-
-# [Markdown](src/markdown/README.md)
-
-# [LaTeX](src/latex/README.md)
-
-# [Linux](src/linux/README.md)
-
-# [WSL](src/wsl/README.md)
-
-# [VSCode](src/vscode/README.md)
-
-# [Vim](src/vim/README.md)
-
-# Project template
-
-* [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
-* `pre-commit install`
-* set up `venv` and install packages
-* `.gitignore`
-* `.gitconfig`
-* `README.md`
-
-# Terminal
-
-* To print out a tree view of the current directory use the `tree` command
-
-# Data Versioning
-
-* DVC (Data Version Control)
-* Guild.ai
-
-# MLOps
-
-* Orchestration
-* Monitoring
-  The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
-
-  1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
-  2. **DevOps Engineer** – Implements and maintains LGTM for observability in CI/CD pipelines and cloud infrastructure.
-  3. **Cloud/Infrastructure Engineer** – Uses LGTM for managing cloud environments and infrastructure monitoring.
-  4. **Platform Engineer** – Integrates LGTM into internal developer platforms for better operational insights.
-  5. **Security Engineer** – Analyzes logs and traces for security incidents and anomaly detection.
-  6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
-
-Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
+# [Advice](src/advice/README.md)
 
 # Cloud
 
@@ -72,16 +27,13 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
   * [AWS CDK](src/aws/cdk/README.md)
   * [SageMaker](src/aws/sagemaker/README.md)
 
-# Python
-
-* [Python installation](src/python/README.md)
-* [Testing](src/python/testing/README.md)
-* [pre-commit](src/python/pre-commit/README.md)
-
 # Data Engineering
 
 * [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
+* Data Versioning
+  * DVC (Data Version Control)
+  * Guild.ai
 
 # [Docker](src/docker/README.md)
 
@@ -108,6 +60,49 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
+
+# [git](src/git/README.md)
+
+# [LaTeX](src/latex/README.md)
+
+# [Linux](src/linux/README.md)
+
+# [Markdown](src/markdown/README.md)
+
+# MLOps
+
+* Orchestration
+* Monitoring
+  The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
+
+  1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
+  2. **DevOps Engineer** – Implements and maintains LGTM for observability in CI/CD pipelines and cloud infrastructure.
+  3. **Cloud/Infrastructure Engineer** – Uses LGTM for managing cloud environments and infrastructure monitoring.
+  4. **Platform Engineer** – Integrates LGTM into internal developer platforms for better operational insights.
+  5. **Security Engineer** – Analyzes logs and traces for security incidents and anomaly detection.
+  6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
+
+Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
+
+# Python
+
+* [Python installation](src/python/README.md)
+* [Testing](src/python/testing/README.md)
+* [pre-commit](src/python/pre-commit/README.md)
+* Python Project template
+  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+  * `pre-commit install`
+  * set up `venv` and install packages
+  * `.gitignore`
+  * `.gitconfig`
+  * `README.md`
+
+# [Vim](src/vim/README.md)
+
+# [VSCode](src/vscode/README.md)
+
+# [WSL](src/wsl/README.md)
+
 
 # Misc
 
