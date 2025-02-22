@@ -28,7 +28,7 @@ Learning & Reference Material
     * Early stopping based on validation set
     * DL epochs and continual learning on previously seen training data
   * ITTV
-    * (I)nference data is critically overlooked in ML education. Every decision you make must be for the sake of desired behavior/performance on inference data
+    * (I)nference data is critically overlooked in ML education. Every decision you make must be for the sake of desired behavior/performance on inference data. If the cost of having a bad model in production is low and it is easy to get new Test data (or it's easy to run inference) then you could consider production to be your Test data.q
     * (T)est data is there *only* to measure the performance of your model on unseen data. This is of value to the customer of your model. Test data must *not* be used to feedback to the model training. If it does, the resulting performance on said data *cannot* be used to quote performance to your customer.
       * When the thought enters your mind that you are ready to run the model on Test data, you should be ready to have go back out into the world and find new Test data if you are unhappy with performance on the original Test data. If you are not willing to do that, then the moment you checked performance on the original Test data *you are done* with model training.
     * Test data *only* tells you about the performance of a model after you are *done* training. You could segment the Test data such that you get a distribution of results.
