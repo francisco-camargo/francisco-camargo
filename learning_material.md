@@ -17,7 +17,7 @@ Learning & Reference Material
 * GitHub Actions / GitLab CI/CD
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
-* Book on Test, Training, and Validation.
+* Book on Test, Training, Validation / Genarizability of Models
   * What we desire is generalizable models; models that perform well on unseen/inference data
   * Most underappreciated concept in Machine Learning
   * Write up case-studies of it going well and poorly
