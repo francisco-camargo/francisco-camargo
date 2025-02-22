@@ -18,8 +18,10 @@ Learning & Reference Material
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 * Book on Test, Training, and Validation.
+  * What we desire is generalizable models; models that perform well on unseen/inference data
   * Most underappreciated concept in Machine Learning
   * Write up case-studies of it going well and poorly
+  * Bias and variance. Under- and over-fitting
   * How do we use ttv to debug and improve model performance
     * Learning and validation curves
   * How do diff model learning algorithms utilize data
@@ -27,6 +29,13 @@ Learning & Reference Material
     * DL epochs and continual learning on previously seen training data
   * ITTV
     * (I)nference data is critically overlooked in ML education. Every decision you make must be for the sake of desired behavior/performance on inference data
+    * (T)est data is there *only* to measure the performance of your model on unseen data. This is of value to the customer of your model. Test data must *not* be used to feedback to the model training. If it does, the resulting performance on said data *cannot* be used to quote performance to your customer.
+      * When the thought enters your mind that you are ready to run the model on Test data, you should be ready to have go back out into the world and find new Test data if you are unhappy with performance on the original Test data. If you are not willing to do that, then the moment you checked performance on the original Test data *you are done* with model training.
+    * Test data *only* tells you about the performance of a model after you are *done* training. You could segment the Test data such that you get a distribution of results.
+  * Cross-Validation
+    * K-Fold Cross-Validation
+    * Chronology obeying Cross-Validation
+    * [Nested Cross-Validation](https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html)
 
 # [Advice](src/advice/README.md)
 
