@@ -1,4 +1,4 @@
-# [Learning Material](learning_material.md)
+# [Learning & Reference Material](learning_material.md)
 
 # Projects
 
