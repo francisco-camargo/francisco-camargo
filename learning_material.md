@@ -17,6 +17,7 @@ Learning & Reference Material
 * GitHub Actions / GitLab CI/CD
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
+* Model generalizability book
 
 # [Advice](src/advice/README.md)
 
@@ -84,6 +85,8 @@ Learning & Reference Material
   6. **Software Engineer (especially Backend)** – Uses LGTM to debug applications and optimize performance.
 
 Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
+
+# [Model Generalizability](src/model_generalizability/README.md)
 
 # Python
 
