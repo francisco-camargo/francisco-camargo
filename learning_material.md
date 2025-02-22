@@ -22,6 +22,9 @@ Learning & Reference Material
   * Write up case-studies of it going well and poorly
   * How do we use ttv to debug and improve model performance
     * Learning and validation curves
+  * How do diff model learning algorithms utilize data
+    * Early stopping based on validation set
+    * DL epochs and continual learning on previously seen training data
 
 # [Advice](src/advice/README.md)
 
