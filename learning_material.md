@@ -4,16 +4,17 @@ Learning & Reference Material
 # Project Ideas
 
 * [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
-* Python project setup; `setup.py`, `.tox`, `project.toml`
+* Set up db with MariaDB. Backend APIs
+* Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
+* Python project setup; `setup.py`, `.tox`, `pyproject.toml`
   * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
-* Deploy container to EC2
-* Be able to develop in remote Dockerized code-base
+* On Cloud
+  * Be able to develop in remote Dockerized code-base
+  * Deploy container to EC2
+  * Deploy Docker container to VPS using Docker Swarm [link](https://youtu.be/ZmL46xVdYzM?si=Z12p5LcWR2byaQZV) and use docker context to work remotely (also ssh-add was used)
 * Database migration with Alembic: Chapter 6, building data science applications with fastapi
   * FastAPI Ch 10: FastAPI app with Docker, [Bigger apps](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
-* Set up db with SQLite. Backend APIs
 * GitHub Actions / GitLab CI/CD
-* Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
-* Deploy Docker container to VPS using Docker Swarm [link](https://youtu.be/ZmL46xVdYzM?si=Z12p5LcWR2byaQZV) and use docker context to work remotely (also ssh-add was used)
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 

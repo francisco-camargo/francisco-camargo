@@ -1,6 +1,10 @@
 Advice
 ======
 
+# Career
+
+* [Software Engineer](https://atomic.guide/)
+
 # ML Pitfalls
 
 * Personnel interdependence and complexity. Too many cooks and they are not in sync
@@ -12,7 +16,7 @@ Advice
 * Product owner sets the stage and the vision, but the solution design must be driven by engineering
 * No product management
 * Gap in skills/ roles; cloud eng, data eng, mlops, sme, end-user
-Poor communication between the parties involved
+* Poor communication between the parties involved
 
 # Technical Presentations for a General Audience
 
