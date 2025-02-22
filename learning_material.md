@@ -1,5 +1,5 @@
-Learning and Reference Material
-=================
+Learning & Reference Material
+=============================
 
 # Project Ideas
 
@@ -102,7 +102,6 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 # [VSCode](src/vscode/README.md)
 
 # [WSL](src/wsl/README.md)
-
 
 # Misc
 
