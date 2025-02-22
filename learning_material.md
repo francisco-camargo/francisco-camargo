@@ -6,7 +6,7 @@ Learning & Reference Material
 * [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
 * Set up db with MariaDB. Backend APIs
 * Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
-* Python project setup; `setup.py`, `.tox`, `project.toml`
+* Python project setup; `setup.py`, `.tox`, `pyproject.toml`
   * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
 * Be able to develop in remote Dockerized code-base
 * Deploy container to EC2
