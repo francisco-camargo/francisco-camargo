@@ -18,9 +18,10 @@ Learning & Reference Material
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 * Book on Test, Training, Validation / Genarizability of Models
-  * What we desire is generalizable models; models that perform well on unseen/inference data
+  * What we desire is generalizable models; models that perform well on unseen/inference data. [link](https://people.csail.mit.edu/delimitrou/papers/2024.cal.generalizability.pdf), [link](https://www.rudderstack.com/learn/machine-learning/generalization-in-machine-learning/), [link](https://pmc.ncbi.nlm.nih.gov/articles/PMC9885377/), [link](https://www.cs.toronto.edu/~lczhang/321/notes/notes09.pdf), [link](https://www.computer.org/csdl/journal/ca/2024/01/10488711/1VORtAtSeuA), [link](https://arxiv.org/pdf/2202.01337)
   * Most underappreciated concept in Machine Learning
   * Write up case-studies of it going well and poorly
+    * [link](https://pmc.ncbi.nlm.nih.gov/articles/PMC8637230/), [link](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30186-2/fulltext)
   * Bias and variance. Under- and over-fitting
   * How do we use ttv to debug and improve model performance
     * Learning and validation curves
