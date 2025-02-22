@@ -25,6 +25,8 @@ Learning & Reference Material
   * How do diff model learning algorithms utilize data
     * Early stopping based on validation set
     * DL epochs and continual learning on previously seen training data
+  * ITTV
+    * (I)nference data is critically overlooked in ML education. Every decision you make must be for the sake of desired behavior/performance on inference data
 
 # [Advice](src/advice/README.md)
 
