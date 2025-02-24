@@ -29,3 +29,18 @@
   * [Warehouse](https://github.com/francisco-camargo/cs7638-ai4r-p4-warehouse)
   * [Ice Rover](https://github.com/francisco-camargo/cs7638-ai4r-p5-icerover)
 * [Georgia Tech - CS7646 Machine Learning for Trading](https://github.com/francisco-camargo/cs7646-ml4t)
+
+# Citation Instructions
+
+If you use this repository in your work, please cite it as follows:
+
+**GitHub Repository**: [francisco-camargo](https://github.com/francisco-camargo/francisco-camargo)
+
+**Suggested Citation**:
+
+* Author: Francisco Camargo
+* Title: Francisco Camargo
+* Source: https://github.com/francisco-camargo/francisco-camargo
+* Date Accessed:
+
+Please ensure proper attribution when using or modifying this work.
