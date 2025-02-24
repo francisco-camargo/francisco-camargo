@@ -1,5 +1,3 @@
-[![GitHub Streak](https://streak-stats.demolab.com?user=francisco-camargo&theme=dark&short_numbers=true&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
-
 # [Learning &amp; Reference Material](learning_material.md)
 
 # Projects
