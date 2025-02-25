@@ -46,6 +46,7 @@ Learning & Reference Material
   * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
 * [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
 * [toy-db-with-docker](https://github.com/francisco-camargo/toy-db-with-docker)
+* [multi-container-crud-app](https://github.com/francisco-camargo/multi-container-crud-app)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
