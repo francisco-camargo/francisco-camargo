@@ -18,6 +18,9 @@ Learning & Reference Material
 * Software for gym owners
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 * Model generalizability book
+* Mortgage rates
+    * Web scrape for mortgage rates
+    * Website where I can sign up to get an email when mortgage rates exceed some value
 
 # [Advice](src/advice/README.md)
 
