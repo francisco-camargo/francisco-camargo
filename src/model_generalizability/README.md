@@ -2,6 +2,7 @@ Model Generalizability
 ======================
 
 * Write blogs / book??
+* Write about model generalizability and model debug and correction / improvement strategies
 
 # Chapter Ideas
 
