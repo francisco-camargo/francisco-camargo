@@ -41,23 +41,16 @@ sudo apt install python3-pip
 
 Download and install Python from [link](https://www.python.org/downloads/)
 
+## Code Environment on Windows
 To create an environment via the terminal, use
 
 `python -m venv env`
 
-On Ubuntu, you may need to install `python3-venv`, [link](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu)
-
-`sudo apt install python3-venv`
-
-To activate environment in Windows, use
+To activate environment, use
 
 `env/Scripts/activate`
 
 In `git bash` may have to use `. env/Scripts/activate`
-
-In Ubuntu use
-
-`env/bin/activate`
 
 To update `pip`, use
 
@@ -68,6 +61,32 @@ To install libraries, use
 `pip install -r requirements.txt`
 
 To deactivate an active environment, use
+
+`deactivate`
+
+## Code Environment on Ubuntu
+
+On Ubuntu, you may need to install `python3-venv`, [link](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu)
+
+`sudo apt install python3-venv`
+
+Create the virtual environment
+
+`python3 -m venv env`
+
+Activate the environment
+
+`. env/bin/activate`
+
+Upgrade `pip`
+
+`python -m pip install --upgrade pip`
+
+Install python libraries
+
+`pip install -r requirements.txt`
+
+Deactivate the environment
 
 `deactivate`
 
