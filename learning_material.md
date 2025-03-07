@@ -19,8 +19,8 @@ Learning & Reference Material
 * App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
 * Model generalizability book
 * Mortgage rates
-    * Web scrape for mortgage rates
-    * Website where I can sign up to get an email when mortgage rates exceed some value
+  * Web scrape for mortgage rates
+  * Website where I can sign up to get an email when mortgage rates exceed some value
 
 # [Advice](src/advice/README.md)
 
@@ -49,7 +49,7 @@ Learning & Reference Material
   * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
 * [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
 * [toy-db-with-docker](https://github.com/francisco-camargo/toy-db-with-docker)
-* [multi-container-crud-app](https://github.com/francisco-camargo/multi-container-crud-app)
+* [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ## Docker for Python
