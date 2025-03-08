@@ -50,6 +50,7 @@ sudo apt install python3-pip
   * `pre-commit install` [link](src\python\pre-commit\README.md)
   * `venv`: set up virtual environments
   * `pyproject.toml`
+  * logging config file
 
 # Python Code Environment
 
@@ -279,7 +280,7 @@ There is the `hypothesis` python package. [Docs](https://hypothesis.readthedocs.
 
 # Logging
 
-Don't pass logger around as a funciton input, instead import `logger` into each script of interest
+Don't pass logger around as a function input, instead import `logger` into each script of interest
 
 Very simple logging:
 
