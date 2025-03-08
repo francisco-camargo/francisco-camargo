@@ -49,7 +49,7 @@ sudo apt install python3-pip
   * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
   * `pre-commit install` [link](src\python\pre-commit\README.md)
   * `venv`: set up virtual environments
-  * `pyproject.toml`
+  * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
   * logging config file
 
 # Python Code Environment
