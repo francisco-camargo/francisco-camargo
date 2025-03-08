@@ -45,8 +45,8 @@ sudo apt install python3-pip
   * `LICENSE`
   * `.gitignore`
   * `.gitattributes`: use to control end-of-line characters when committing to remote
-  * `.gitconfig`
-  * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`)
+  * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
+  * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
   * `pre-commit install` [link](src\python\pre-commit\README.md)
   * `venv`: set up virtual environments
   * `pyproject.toml`
