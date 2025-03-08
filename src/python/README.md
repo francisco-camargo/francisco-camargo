@@ -37,6 +37,20 @@ sudo apt-get upgrade # not needed according to guide, but may as well
 sudo apt install python3-pip
 ```
 
+# Project structure
+
+* Things to consider adding/using when making a new Python project
+  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+  * `README.md`
+  * `LICENSE`
+  * `.gitignore`
+  * `.gitattributes`: use to control end-of-line characters when committing to remote
+  * `.gitconfig`
+  * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`)
+  * `pre-commit install` [link](src\python\pre-commit\README.md)
+  * `venv`: set up virtual environments
+  * `pyproject.toml`
+
 # Python Code Environment
 
 Download and install Python from [link](https://www.python.org/downloads/)
@@ -89,6 +103,9 @@ Install python libraries
 Deactivate the environment
 
 `deactivate`
+
+# Testing
+* [Testing](src/python/testing/README.md)
 
 # Importing local code from other directories
 

@@ -92,18 +92,7 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 
 # [Model Generalizability](src/model_generalizability/README.md)
 
-# Python
-
-* [Python installation](src/python/README.md)
-* [Testing](src/python/testing/README.md)
-* [pre-commit](src/python/pre-commit/README.md)
-* Python Project template
-  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
-  * `pre-commit install`
-  * set up `venv` and install packages
-  * `.gitignore`
-  * `.gitconfig`
-  * `README.md`
+# [Python](src/python/README.md)
 
 # [Vim](src/vim/README.md)
 
