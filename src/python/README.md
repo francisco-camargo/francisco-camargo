@@ -37,6 +37,24 @@ sudo apt-get upgrade # not needed according to guide, but may as well
 sudo apt install python3-pip
 ```
 
+# Project structure
+
+* Things to consider adding/using when making a new Python project
+  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+  * `README.md`
+  * `LICENSE`
+  * `.gitignore`
+  * `.gitattributes`: use to control end-of-line characters when committing to remote
+  * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
+  * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
+  * `.pre-commit-config.yaml` [link](src\python\pre-commit\README.md)
+  * `venv`: set up virtual environments
+  * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
+  * `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
+  * logging config file
+  * `src` and `tests` directories
+  * CI config files, e.g. `.github/workflows/ci.yaml`
+
 # Python Code Environment
 
 Download and install Python from [link](https://www.python.org/downloads/)
@@ -89,6 +107,9 @@ Install python libraries
 Deactivate the environment
 
 `deactivate`
+
+# Testing
+* [Testing](src/python/testing/README.md)
 
 # Importing local code from other directories
 
@@ -262,7 +283,7 @@ There is the `hypothesis` python package. [Docs](https://hypothesis.readthedocs.
 
 # Logging
 
-Don't pass logger around as a funciton input, instead import `logger` into each script of interest
+Don't pass logger around as a function input, instead import `logger` into each script of interest
 
 Very simple logging:
 
