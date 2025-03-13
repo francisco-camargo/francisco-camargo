@@ -61,6 +61,18 @@ git config --global credential.helper cache
 
 Trying to use GitHub on new machine, could not get a new PAT to work so will switch to using SSH... I tried `git push` on a repo that had been using HTTPS using `git bash` within VSCode. I got the pop-up to log in to GitHub, I cancenled and was asked if I wanted to let the VSCode GitHub extension have access to my GitHub account. I clicked yes, it sent me to the browser where I verified that I wanted to grant permissions... and that worked! I was able to `git push` to GitHub even though I did not log-in when prompted in the terminal.
 
+2025-03-13
+
+One machine started asking for credentials whenever I wanted to work locally. I suspect that the PAT ran out. To get to the PAT page on the GitHub website, go to Settings, then Developer settings. Now look for Fine-grained tokens,
+
+![1741842368169](image/README/1741842368169.png)
+
+ I deleted the old PAT on GitHub and created a new one with the following settings
+
+![1741842260870](image/README/1741842260870.png)
+
+Now I tried to clone the repo of interest, was asked for credentials and use my username and the PAT as the password. Still have to do this twice for some reason...
+
 ## SSH
 
 ### [Generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
@@ -174,10 +186,13 @@ git checkout -b <new-branch-name> <commit id>
 ```
 
 [View](https://stackoverflow.com/a/49838096/9205210) difference between two commits on GitHub
+
 ```
 github.com/<username>/<repo_name>/compare/<commit1>...<commit2>
 ```
+
 eg.
+
 ```
 github.com/francisco-camargo/vidly/compare/04f5f58...e892d14
 ```
