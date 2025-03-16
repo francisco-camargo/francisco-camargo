@@ -66,6 +66,12 @@ $y=mx+b$
 
 [Guide](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
 
+## dillinger.io
+
+[dillinger.io](https://dillinger.io/) is an easy option to convert markdown to pdf. However, have to copy paste into the web-browser.
+
+However, would have to figure out how to customize as needed (e.g. add page numbers, add page breaks)
+
 ## Pandoc
 
 [Pandoc](https://pandoc.org/) is a document converter. I have been using it to convert from `.md` to `.pdf`. Specifically, I have been using the VSCode extension `vscode-pandoc`.
