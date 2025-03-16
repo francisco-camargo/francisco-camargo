@@ -92,3 +92,7 @@ Here I have changed the output font size and margin spacing.q
 ```
 
 ![1742135667749](image/README/1742135667749.png)
+
+## Markdeep
+
+[Markdeep](https://casual-effects.com/markdeep/). Seems to have example `.md.html` files that have decent styling and can be opened via a browser. Maybe been good for making webpages. Not clear if there is a way to then also convert to `.pdf`.
