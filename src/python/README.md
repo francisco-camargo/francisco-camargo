@@ -21,6 +21,7 @@ python --version
 If you use VSCode, be sure that the desired Python Interpreter is used: from the Command Pallette search for `Python: Select Interpreter`. Can check the bottom right of the window:
 
 ![1670921755378](1670921755378.png)
+
 # Install Python on WSL
 
 [Guide](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
@@ -60,6 +61,7 @@ sudo apt install python3-pip
 Download and install Python from [link](https://www.python.org/downloads/)
 
 ## Code Environment on Windows
+
 To create an environment via the terminal, use
 
 `python -m venv env`
@@ -109,6 +111,7 @@ Deactivate the environment
 `deactivate`
 
 # Testing
+
 * [Testing](src/python/testing/README.md)
 
 # Importing local code from other directories
@@ -131,6 +134,7 @@ parent
 and the current working directory is `folder1`.
 
 If you need to run from a submodule directly such that `__name__` is `'__main__'`, try adding the parent directory to the system path
+
 ```python
 try:
     from folder1.folder3 import scriptF
@@ -142,6 +146,7 @@ except ModuleNotFoundError as e:
 If you want to do relative imports: good [write-up](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time). My current understanding is that whatever script is `'__main__'` will not be able to utilize relative imports!
 
 Again assume the current working directory is `folder1`:
+
 * For `scriptB.py`, use `import scriptB`
 * For `scriptF.py`, use `import folder3.scriptF`
 * For `scriptE.py`, you _must_ use the `from` syntax; `from ..scriptE import *`
@@ -267,6 +272,24 @@ Want to be able to use sklearn without having to switch back and forth between n
 
 [StackOverflow](https://stackoverflow.com/questions/34731421/whats-the-difference-between-kfold-and-shufflesplit-cv#:~:text=As%20your%20data%20set%20grows,ShuffleSplit%20is%20an%20attractive%20option.) on why ShuffleSplit is useful as training data size grows
 
+## `FutureWarning: This Pipeline instance is not fitted yet`
+
+I created a custom class to use as part of a feature engineering `Pipeline` and was getting this warning. One way to get this warning to go away is to add an `Estimator` at the end of the `Pipeline` but that is undesirable as I want this pipeline to be dedicated to feature engineering.
+
+[This](https://stackoverflow.com/a/79479302/9205210) post has as solution that I think is better. Essentially, in variables defined within the custom class, name them with an underscore suffix.
+
+```python
+class CustomClass(BaseEstimator, TransformerMixin):
+    def __init__(self, attribute):
+        self.attribute_ = attribute
+
+    def fit(self, X, y=None):
+        scale_cols_ = X[self.attribute_]
+        return self
+```
+
+It seems like this works even if I only apply an underscore suffix to one (and not all) the attributes. Also not sure if it matter if it's a method instead. I don't understand why this works in the first place, but I can live with it and it enables the use of custom transformers to be used in `Pipelines`!
+
 # Experimental Setup
 
 [Guide](https://hydra.cc/docs/intro/) into how to use Hydra to help run experiments using Python.
@@ -300,6 +323,7 @@ logger.info('Added an entry to the logger')
 ```
 
 More sophisticated logging:
+
 ```python
 """
 Logging Configuration Module
@@ -347,4 +371,3 @@ console_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 ```
-

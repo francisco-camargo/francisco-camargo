@@ -1,10 +1,10 @@
-Markdown
-========
+# Markdown
 
 [Return to top README.md](../../README.md)
 
-# Code Blocks
-Formatting code block [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks), [list ](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)of available tags
+## Code Blocks
+
+Formatting code block [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks), [list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)of available tags
 
 Some useful tags:
 
@@ -20,7 +20,7 @@ Some useful tags:
 | JSON               | Python console   | XML         |
 | JSON with Comments | Python traceback | YAML        |
 
-<!-- 
+<!--
 * bash, recommended
 * Batchfile
 * BibTeX
@@ -48,16 +48,57 @@ Some useful tags:
 * TOML
 * Vim Snippet
 * XML
-* YAML 
+* YAML
 -->
 
-# LaTeX equation formatting for Markdown
+## LaTeX equation formatting for Markdown
+
 In a Markdown file, the following syntax
+
 ```TeX
 $y=mx+b$
 ```
+
 displays as
 $y=mx+b$
 
-# YAML Header
+## YAML Header
+
 [Guide](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
+
+## dillinger.io
+
+[dillinger.io](https://dillinger.io/) is an easy option to convert markdown to pdf. However, have to copy paste into the web-browser.
+
+However, would have to figure out how to customize as needed (e.g. add page numbers, add page breaks)
+
+## Pandoc
+
+[Pandoc](https://pandoc.org/) is a document converter. I have been using it to convert from `.md` to `.pdf`. Specifically, I have been using the VSCode extension `vscode-pandoc`.
+
+To run
+
+* Have a markdown file open
+* Open the Command Palette (`ctrl + shift + p`)
+* Find and run Pandoc
+* Select the output format desired
+
+Additionally, here the setting I use:
+
+### Docker
+
+![1742135526567](image/README/1742135526567.png)
+
+### PDF Options
+
+Here I have changed the output font size and margin spacing.q
+
+```bach
+-V fontsize=12pt -V geometry:margin=1in
+```
+
+![1742135667749](image/README/1742135667749.png)
+
+## Markdeep
+
+[Markdeep](https://casual-effects.com/markdeep/). Seems to have example `.md.html` files that have decent styling and can be opened via a browser. Maybe been good for making webpages. Not clear if there is a way to then also convert to `.pdf`.
