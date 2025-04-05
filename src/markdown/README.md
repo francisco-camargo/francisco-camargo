@@ -76,13 +76,6 @@ However, would have to figure out how to customize as needed (e.g. add page numb
 
 [Pandoc](https://pandoc.org/) is a document converter. I have been using it to convert from `.md` to `.pdf`. Specifically, I have been using the VSCode extension `vscode-pandoc`.
 
-To run
-
-* Have a markdown file open
-* Open the Command Palette (`ctrl + shift + p`)
-* Find and run Pandoc
-* Select the output format desired
-
 Additionally, here the setting I use:
 
 ### Docker
@@ -98,6 +91,18 @@ Here I have changed the output font size and margin spacing.q
 ```
 
 ![1742135667749](image/README/1742135667749.png)
+
+### Running Pandoc
+
+While viewing the `.md` file of interest, open the Command Palette (`ctrl + shift + p`) and look for and select `Pandoc Render`
+
+![1743878458095](image/README/1743878458095.png)
+
+You will then have some options of the output format, we will use pdf
+
+![1743878522357](image/README/1743878522357.png)
+
+If successful, this will run a Docker container and produce a pdf.
 
 ## Markdeep
 
