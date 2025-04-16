@@ -5,7 +5,11 @@ Learning & Reference Material
 
 * [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
 * Set up db with MariaDB. Backend APIs
-  * Add GitHub Actions / GitLab CI/CD
+* Use a free cloud hosting service
+  * Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
+  * ![1744688022055](image/learning_material/1744688022055.png)
+* GitHub Actions / GitLab CI/CD
+* Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
 * Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
 * Python project setup; `setup.py`, `.tox`, `pyproject.toml`
   * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
