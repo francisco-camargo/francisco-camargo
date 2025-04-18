@@ -1,15 +1,14 @@
-Linux
-=====
+# Linux
 
 [Return to top README.md](../../README.md)
 
-# Shell commands
+## Shell commands
 
 * Make a directory: `mkdir [directoryname]`
 * New file: `touch [filename.extension]`
 * Check contents of file (?): `cat [filepath]`
 
-## Terminal Shortcuts
+### Terminal Shortcuts
 
 * New terminal tab: **ctrl+shift+t**
 * New terminal window: **ctrl+alt+t**
@@ -19,13 +18,13 @@ Linux
 * Paste: **ctrl+shift+v**
 * But how to I highlight text? What to do the equivalent of the Windows **ctrl+shift**+[arrow]
 
-# WSL
+## WSL
 
 [Check](https://www.zdnet.com/article/windows-10-tip-find-out-if-your-pc-can-run-hyper-v/) if your PC can run Hyper-V
 
 [Guide](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10)
 
-## Install Ubuntu in WSL
+### Install Ubuntu in WSL
 
 Go to the Microsoft Store and install Ubuntu 20.04 (or whatever version you want).
 
@@ -50,7 +49,7 @@ sudo apt update && sudo apt upgrade
 sudo apt-get install git
 ```
 
-## Check for internet connection
+### Check for internet connection
 
 To check if WSL has internet access:
 
@@ -66,7 +65,7 @@ Terminate the command with `ctrl+c`
 
 If you do not have internet access, be sure you are on the correct network (via VPN), if needed. Alternativly, you may need to modify the `resolv.conf` file. This [thread](https://stackoverflow.com/q/62314789/9205210) describes how to do this. For some reason this gets undone on its own, so you may have to redo this again.
 
-## Where is this repo once it is cloned?
+### Where is this repo once it is cloned?
 
 Where is this repo in my local? I can get to it from the Ubuntu terminal using
 `cd dev_workflow`
