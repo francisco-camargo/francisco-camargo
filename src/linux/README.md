@@ -18,6 +18,24 @@
 * Paste: **ctrl+shift+v**
 * But how to I highlight text? What to do the equivalent of the Windows **ctrl+shift**+[arrow]
 
+## Ubuntu
+
+### Installing Ubuntu on a local machine
+
+We need to place an ISO image on a thumb drive and then used said thumb drive to install Ubuntu on the machine of interest.
+
+[Official Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview). I used Rufus to place the ISO image on a thumb drive. I had first tried belenaEtcher, as recommended by the guide, but was not successful.
+
+Once the thumb drive was ready, I had some trouble booting from it on the machine of interest to initiate the installation process. I shut the machine down and turned it on with the thumb drive already in, this resulted in the thumb drive appearing in the boot list. From there I just followed the installation instructions via the Ubuntu installation GUI.
+
+### VSCode on Ubuntu
+
+I installed VSCode via the AppCenter (which I think uses `snaps`)
+
+### Docker
+
+The AppCenter has `docker` published by Canonical. But I am leary of using this.
+
 ## WSL
 
 [Check](https://www.zdnet.com/article/windows-10-tip-find-out-if-your-pc-can-run-hyper-v/) if your PC can run Hyper-V
