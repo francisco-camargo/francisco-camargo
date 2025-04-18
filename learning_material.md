@@ -1,9 +1,8 @@
-Learning & Reference Material
-=============================
+# Learning & Reference Material
 
-# [Advice](src/advice/README.md)
+## [Advice](src/advice/README.md)
 
-# Cloud
+## Cloud
 
 * [Terraform](src/terraform/README.md)
 * AWS
@@ -11,7 +10,7 @@ Learning & Reference Material
   * [AWS CDK](src/aws/cdk/README.md)
   * [SageMaker](src/aws/sagemaker/README.md)
 
-# Data Engineering
+## Data Engineering
 
 * [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
@@ -19,7 +18,7 @@ Learning & Reference Material
   * DVC (Data Version Control)
   * Guild.ai
 
-# [Docker](src/docker/README.md)
+## [Docker](src/docker/README.md)
 
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
@@ -31,7 +30,7 @@ Learning & Reference Material
 * [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
-## Docker for Python
+### Docker for Python
 
 * Use Docker for dev work
 * Use Docker to dev on local machine while hosting container on Cloud
@@ -39,22 +38,22 @@ Learning & Reference Material
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
-# [FastAPI](src/fastapi/README.md)
+## [FastAPI](src/fastapi/README.md)
 
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
-# [git](src/git/README.md)
+## [git](src/git/README.md)
 
-# [LaTeX](src/latex/README.md)
+## [LaTeX](src/latex/README.md)
 
-# [Linux](src/linux/README.md)
+## [Linux](src/linux/README.md)
 
-# [Markdown](src/markdown/README.md)
+## [Markdown](src/markdown/README.md)
 
-# MLOps
+## MLOps
 
 * Orchestration
 * Monitoring
@@ -69,19 +68,19 @@ Learning & Reference Material
 
 Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
 
-# [Model Generalizability](src/model_generalizability/README.md)
+## [Model Generalizability](src/model_generalizability/README.md)
 
-# [Project Ideas](src/project_ideas/README.md)
+## [Project Ideas](src/project_ideas/README.md)
 
-# [Python](src/python/README.md)
+## [Python](src/python/README.md)
 
-# [Vim](src/vim/README.md)
+## [Vim](src/vim/README.md)
 
-# [VSCode](src/vscode/README.md)
+## [VSCode](src/vscode/README.md)
 
-# [WSL](src/wsl/README.md)
+## [WSL](src/wsl/README.md)
 
-# Misc
+## Misc
 
 * [Software testing](src/testing/README.md)
 * [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
