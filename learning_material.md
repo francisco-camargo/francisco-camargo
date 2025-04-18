@@ -1,34 +1,8 @@
-Learning & Reference Material
-=============================
+# Learning & Reference Material
 
-# Project Ideas
+## [Advice](src/advice/README.md)
 
-* [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
-* Set up db with MariaDB. Backend APIs
-* Use a free cloud hosting service
-  * Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
-  * ![1744688022055](image/learning_material/1744688022055.png)
-* GitHub Actions / GitLab CI/CD
-* Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
-* Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
-* Python project setup; `setup.py`, `.tox`, `pyproject.toml`
-  * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
-* On Cloud
-  * Be able to develop in remote Dockerized code-base
-  * Deploy container to EC2
-  * Deploy Docker container to VPS using Docker Swarm [link](https://youtu.be/ZmL46xVdYzM?si=Z12p5LcWR2byaQZV) and use docker context to work remotely (also ssh-add was used)
-* Database migration with Alembic: Chapter 6, building data science applications with fastapi
-  * FastAPI Ch 10: FastAPI app with Docker, [Bigger apps](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
-* Software for gym owners
-* App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
-* Model generalizability book
-* Mortgage rates
-  * Web scrape for mortgage rates
-  * Website where I can sign up to get an email when mortgage rates exceed some value
-
-# [Advice](src/advice/README.md)
-
-# Cloud
+## Cloud
 
 * [Terraform](src/terraform/README.md)
 * AWS
@@ -36,7 +10,7 @@ Learning & Reference Material
   * [AWS CDK](src/aws/cdk/README.md)
   * [SageMaker](src/aws/sagemaker/README.md)
 
-# Data Engineering
+## Data Engineering
 
 * [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
@@ -44,7 +18,7 @@ Learning & Reference Material
   * DVC (Data Version Control)
   * Guild.ai
 
-# [Docker](src/docker/README.md)
+## [Docker](src/docker/README.md)
 
 * [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
@@ -56,7 +30,7 @@ Learning & Reference Material
 * [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)
 * [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
-## Docker for Python
+### Docker for Python
 
 * Use Docker for dev work
 * Use Docker to dev on local machine while hosting container on Cloud
@@ -64,22 +38,22 @@ Learning & Reference Material
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
-# [FastAPI](src/fastapi/README.md)
+## [FastAPI](src/fastapi/README.md)
 
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
 * [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
 * [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
-# [git](src/git/README.md)
+## [git](src/git/README.md)
 
-# [LaTeX](src/latex/README.md)
+## [LaTeX](src/latex/README.md)
 
-# [Linux](src/linux/README.md)
+## [Linux](src/linux/README.md)
 
-# [Markdown](src/markdown/README.md)
+## [Markdown](src/markdown/README.md)
 
-# MLOps
+## MLOps
 
 * Orchestration
 * Monitoring
@@ -94,17 +68,19 @@ Learning & Reference Material
 
 Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
 
-# [Model Generalizability](src/model_generalizability/README.md)
+## [Model Generalizability](src/model_generalizability/README.md)
 
-# [Python](src/python/README.md)
+## [Project Ideas](src/project_ideas/README.md)
 
-# [Vim](src/vim/README.md)
+## [Python](src/python/README.md)
 
-# [VSCode](src/vscode/README.md)
+## [Vim](src/vim/README.md)
 
-# [WSL](src/wsl/README.md)
+## [VSCode](src/vscode/README.md)
 
-# Misc
+## [WSL](src/wsl/README.md)
+
+## Misc
 
 * [Software testing](src/testing/README.md)
 * [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
