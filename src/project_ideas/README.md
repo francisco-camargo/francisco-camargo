@@ -4,8 +4,9 @@
 * Set up db with MariaDB. Backend APIs
 * Use a free cloud hosting service
   * Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
-
-    ![1744995910694](image/README/1744995910694.png)itHub Actions / GitLab CI/CD
+  * Using Railway.app for Python; [guide](https://youtu.be/2YmdkXo7iP8?si=MIJhelZ-ArQzL-6c)
+    ![1744995910694](image/README/1744995910694.png)
+* GitHub Actions / GitLab CI/CD
 * Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
 * Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
 * Python project setup; `setup.py`, `.tox`, `pyproject.toml`
@@ -91,3 +92,48 @@ Below is a snapshot of popular ways to get a **real VM‑style instance you can
 4. Snapshot any data you care about—free tiers often reclaim resources after 30 days of inactivity.
 
 That’s it! With a free‑tier VM you can compile code, host a lightweight API, or run personal automation from anywhere while only paying (at most) for extras like storage or heavy network egress.
+
+## Railway
+
+Here's how to deploy a "Hello, World!" FastAPI application using Docker on Railway:
+
+* Project Setup:
+  * Create a project directory.
+  * Inside, create main.py with the following content:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+```
+
+Create a requirements.txt file.
+
+```bash
+fastapi>=0.115.8
+uvicorn
+```
+
+* Dockerfile:
+  * Create a Dockerfile in the project root:
+
+```Dockerfile
+FROM python:3-alpine
+WORKDIR /app
+COPY . .
+RUN pip install --no-cache-dir -r requirements.txt
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+* Deploy to Railway:
+  * Sign in to Railway.
+  * Create a new project and choose "Deploy from GitHub Repo" or use the Railway CLI.
+  * Link your repository containing the FastAPI app and Dockerfile.
+  * Railway will automatically detect the Dockerfile, build the image, and deploy the application.
+* Access the Application:
+  * Once deployed, Railway will provide a URL to access your application.
+  * Open the URL in your browser to see the `{"Hello": "World"}` response.
