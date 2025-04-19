@@ -24,6 +24,9 @@
 
 ## Dev on the Cloud
 
+* Use Docker for dev work
+* Use Docker to dev on local machine while hosting container on Cloud
+
 Below is a snapshot of popular ways to get a **real VM‑style instance you can SSH or RDP into—without paying anything up‑front.**  I’ve grouped them by the kind of service you’re likely to use first.
 
 ---
