@@ -1,12 +1,11 @@
-git
-===
+# git
 
 [Return to top README.md](../../README.md)
 
 To view the remote repo URL, run
 `cat .git/config`
 
-# git credentials
+## git credentials
 
 [Guide](https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/) on `git` credentials
 
@@ -48,7 +47,7 @@ Using this method of entering my credentials, I did not have to enter my credent
 
 2023-01-20
 
-made a new PAT (previous one had expired). I get to the pop-up window (seen above), and I was able to connect via a  `git bash` terminal within VSCode by loging-in with my github email (not the no-reply one) and used my new PAT as the password
+made a new PAT (previous one had expired). I get to the pop-up window (seen above), and I was able to connect via a  `git bash` terminal within VSCode by logging-in with my github email (not the no-reply one) and used my new PAT as the password
 
 However if this is a problem. I don't want to have to enter my username and password (PAT) every time, so follow this [guide](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/) or maybe [this](https://www.techiediaries.com/git/stop-git-always-asking-for-username-and-password-when-using-https/) guide and essentially run the following commands (at the moment, not sure that I've gotten any of this to work...):
 
@@ -59,7 +58,7 @@ git config --global credential.helper cache
 
 2024-01-07
 
-Trying to use GitHub on new machine, could not get a new PAT to work so will switch to using SSH... I tried `git push` on a repo that had been using HTTPS using `git bash` within VSCode. I got the pop-up to log in to GitHub, I cancenled and was asked if I wanted to let the VSCode GitHub extension have access to my GitHub account. I clicked yes, it sent me to the browser where I verified that I wanted to grant permissions... and that worked! I was able to `git push` to GitHub even though I did not log-in when prompted in the terminal.
+Trying to use GitHub on new machine, could not get a new PAT to work so will switch to using SSH... I tried `git push` on a repo that had been using HTTPS using `git bash` within VSCode. I got the pop-up to log in to GitHub, I canceled and was asked if I wanted to let the VSCode GitHub extension have access to my GitHub account. I clicked yes, it sent me to the browser where I verified that I wanted to grant permissions... and that worked! I was able to `git push` to GitHub even though I did not log-in when prompted in the terminal.
 
 2025-03-13
 
@@ -111,7 +110,7 @@ I did not have a `~/.bashrc` file so I made one and all it contains is the code 
 
 ### Configure SSH agent
 
-Need to provide SSH agent access to private key, however, the default location where the generated key should have been made, `~/.ssh`, is accesible right away to the `ssh-agent` without us having to do anything.
+Need to provide SSH agent access to private key, however, the default location where the generated key should have been made, `~/.ssh`, is accessible right away to the `ssh-agent` without us having to do anything.
 
 ### Provide GitHub the public SSH key
 
@@ -129,13 +128,13 @@ Using a personal BitBucket account use the Username found within the "Account Se
 
 For the password, use an [App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/) which you can do from the "App passwords" page within "Personal settings".
 
-## Transfer Repo from BitBucket to GitHub
+### Transfer Repo from BitBucket to GitHub
 
 [Guide](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) from GitHub. However, when you are asked to login with your BitBucket credentials within the GitHub website, use your BitBucket [username ](https://bitbucket.org/account/settings/)and [app-password](https://bitbucket.org/account/settings/app-passwords/), [link](https://gist.github.com/mandiwise/5954bbb2e95c011885ff?permalink_comment_id=3756611#gistcomment-3756611). [Guide ](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)to generating a BitBucket app-password.
 
-# git commands
+## git commands
 
-## git diff
+### git diff
 
 View of unstaged changes
 
@@ -149,7 +148,7 @@ View staged changes
 git diff --cached [filepath]
 ```
 
-## Change commit message
+### Change commit message
 
 To change the message of the last commit
 
@@ -157,7 +156,7 @@ To change the message of the last commit
 git commit --amend
 ```
 
-## git squash
+### git squash
 
 [Guide](https://www.git-tower.com/learn/git/faq/git-squash) to using `rebase` to squash commits together. With several commits made, we can combine them into a single commit using `rebase`. For example, let's squash together the last 3 commits by running
 
@@ -171,7 +170,7 @@ The part I don't like about this is that I have to squash commits that are local
 
 The guide also describes how to "squash and merge" during pull requests in GitHub. I used this but I don't like it because after using this merge option the Network doesn't indicate that a merge was done: the branches in the network remain separate.
 
-## git time machine
+### git time machine
 
 https://stackoverflow.com/questions/40253526/get-changes-from-another-branch-without-affecting-current-branch-at-all
 
@@ -187,18 +186,18 @@ git checkout -b <new-branch-name> <commit id>
 
 [View](https://stackoverflow.com/a/49838096/9205210) difference between two commits on GitHub
 
-```
+```bash
 github.com/<username>/<repo_name>/compare/<commit1>...<commit2>
 ```
 
 eg.
 
-```
+```bash
 github.com/francisco-camargo/vidly/compare/04f5f58...e892d14
 ```
 
-# Git End-of-Line handling
+## Git End-of-Line handling
 
-By default, when commiting changes, `git` converts end-of-line characters depending on the OS. For example, if on a Windows machines, EOL will be changed to CRLF. [Here](https://betterstack.com/community/questions/git-replacing-lf-with-crlf/) is a guide on how to change this `git` setting locally.
+By default, when committing changes, `git` converts end-of-line characters depending on the OS. For example, if on a Windows machines, EOL will be changed to CRLF. [Here](https://betterstack.com/community/questions/git-replacing-lf-with-crlf/) is a guide on how to change this `git` setting locally.
 
 [Here](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings) is a guide on how to make these changes stick to the repo. I have a working example of a `.gitattributes` file in this repo. [Discussion](https://stackoverflow.com/questions/73573683/editing-gitattributes-to-normalize-line-endings-doesnt-work), [docs](https://git-scm.com/docs/gitattributes), [origin of .gitattributes](https://github.com/gitattributes/gitattributes/blob/master/.gitattributes), [working with .gitignore](https://stackoverflow.com/questions/18331048/how-to-create-a-git-attributes-file).
