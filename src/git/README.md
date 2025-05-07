@@ -23,6 +23,54 @@ git config --global user.name "name"
 git config --global user.email "email@email.com"
 ```
 
+## SSH
+
+### [Generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+
+I entered in my GitHub email (should try with no-reply email). When asked about filename and passphrase, I just left those fields blank. If successful you will end up with a public key, `~/.ssh/id_ed25519.pub`, and a private key, `~/.ssh/id_ed25519`
+
+### [Auto-launching ssh-agent on Git for Windows](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows)
+
+Add the provided code from the link to `~/.bashrc`
+
+```bash
+env=~/.ssh/agent.env
+
+agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+
+agent_start () {
+    (umask 077; ssh-agent >| "$env")
+    . "$env" >| /dev/null ; }
+
+agent_load_env
+
+# agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+
+if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
+    agent_start
+    ssh-add
+elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
+    ssh-add
+fi
+
+unset env
+```
+
+I did not have a `~/.bashrc` file so I made one and all it contains is the code from the link above. Open up a new `git bash` terminal. I got a warning about `~/.profile` not existing but it created one. I closed and re-opened `git bash` and it seemed happy.
+
+### Configure SSH agent
+
+Need to provide SSH agent access to private key, however, the default location where the generated key should have been made, `~/.ssh`, is accessible right away to the `ssh-agent` without us having to do anything.
+
+### Provide GitHub the public SSH key
+
+Within GitHub go to settings and then "SSH and GPG keys". Click "New SSH key", give it a name, and in the Key field paste in the ***public*** key value. Similar page should be found for BitBucket, or any other repo site.
+
+### Clone repo via SSH
+
+If it is all working, use `git clone` using the SSH address provided to you by GitHub.
+
 ## GitHub HTTPS Credentials
 
 Here are the credentials I use when working with a personal GitHub repo.
@@ -71,54 +119,6 @@ One machine started asking for credentials whenever I wanted to work locally. I 
 ![1741842260870](image/README/1741842260870.png)
 
 Now I tried to clone the repo of interest, was asked for credentials and use my username and the PAT as the password. Still have to do this twice for some reason...
-
-## SSH
-
-### [Generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
-
-I entered in my GitHub email (should try with no-reply email). When asked about filename and passphrase, I just left those fields blank. If successful you will end up with a public key, `~/.ssh/id_ed25519.pub`, and a private key, `~/.ssh/id_ed25519`
-
-### [Auto-launching ssh-agent on Git for Windows](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows)
-
-Add the provided code from the link to `~/.bashrc`
-
-```bash
-env=~/.ssh/agent.env
-
-agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
-
-agent_start () {
-    (umask 077; ssh-agent >| "$env")
-    . "$env" >| /dev/null ; }
-
-agent_load_env
-
-# agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
-agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
-
-if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
-    agent_start
-    ssh-add
-elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
-    ssh-add
-fi
-
-unset env
-```
-
-I did not have a `~/.bashrc` file so I made one and all it contains is the code from the link above. Open up a new `git bash` terminal. I got a warning about `~/.profile` not existing but it created one. I closed and re-opened `git bash` and it seemed happy.
-
-### Configure SSH agent
-
-Need to provide SSH agent access to private key, however, the default location where the generated key should have been made, `~/.ssh`, is accessible right away to the `ssh-agent` without us having to do anything.
-
-### Provide GitHub the public SSH key
-
-Within GitHub go to settings and then "SSH and GPG keys". Click "New SSH key", give it a name, and in the Key field paste in the ***public*** key value. Similar page should be found for BitBucket, or any other repo site.
-
-### Clone repo via SSH
-
-If it is all working, use `git clone` using the SSH address provided to you by GitHub.
 
 ## BitBucket Credentials
 
