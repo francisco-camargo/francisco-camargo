@@ -4,8 +4,7 @@
 * Set up db with MariaDB. Backend APIs
 * Use a free cloud hosting service
   * Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
-
-    ![1744995910694](image/README/1744995910694.png)itHub Actions / GitLab CI/CD
+* GitHub Actions / GitLab CI/CD
 * Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
 * Docker + PyTorch [link](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
 * Python project setup; `setup.py`, `.tox`, `pyproject.toml`
@@ -24,6 +23,9 @@
   * Website where I can sign up to get an email when mortgage rates exceed some value
 
 ## Dev on the Cloud
+
+* Use Docker for dev work
+* Use Docker to dev on local machine while hosting container on Cloud
 
 Below is a snapshot of popular ways to get a **real VM‑style instance you can SSH or RDP into—without paying anything up‑front.**  I’ve grouped them by the kind of service you’re likely to use first.
 

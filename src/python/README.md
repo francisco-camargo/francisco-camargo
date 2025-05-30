@@ -1,9 +1,8 @@
-Python
-======
+# Python
 
 [Return to top README.md](../../README.md)
 
-# Install Python on Windows
+## Install Python on Windows
 
 [Link](https://www.python.org/downloads/) to download Python.
 
@@ -22,7 +21,7 @@ If you use VSCode, be sure that the desired Python Interpreter is used: from the
 
 ![1670921755378](1670921755378.png)
 
-# Install Python on WSL
+## Install Python on WSL
 
 [Guide](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
 
@@ -38,7 +37,7 @@ sudo apt-get upgrade # not needed according to guide, but may as well
 sudo apt install python3-pip
 ```
 
-# Project structure
+## Project structure
 
 * Things to consider adding/using when making a new Python project
   * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
@@ -56,11 +55,11 @@ sudo apt install python3-pip
   * `src` and `tests` directories
   * CI config files, e.g. `.github/workflows/ci.yaml`
 
-# Python Code Environment
+## Python Code Environment
 
 Download and install Python from [link](https://www.python.org/downloads/)
 
-## Code Environment on Windows
+### `venv` on Windows
 
 To create an environment via the terminal, use
 
@@ -84,7 +83,7 @@ To deactivate an active environment, use
 
 `deactivate`
 
-## Code Environment on Ubuntu
+### `venv` on Ubuntu
 
 On Ubuntu, you may need to install `python3-venv`, [link](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu)
 
@@ -110,11 +109,11 @@ Deactivate the environment
 
 `deactivate`
 
-# Testing
+## Testing
 
 * [Testing](src/python/testing/README.md)
 
-# Importing local code from other directories
+## Importing local code from other directories
 
 Assume you have the following folder structure:
 
@@ -163,7 +162,7 @@ Here are some useful commands to help debug some of these issues:
     print(f'ls within ../cwd: {os.listdir('../')}')
 ```
 
-# Running Python code in VSCode
+## Running Python code in VSCode
 
 To use the IPython terminal, install IPython
 
@@ -200,13 +199,13 @@ This will have the same effect as clicking **Run** within Spyder on whatever Pyt
 import main; main.main()
 ```
 
-# `pyproject.toml`
+## `pyproject.toml`
 
 The [documentation](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html) for `black` suggests that we can use a `pyproject.toml` file to replace both `setup.py` and `setup.cfg` files.
 
 ![1670897817471](1670897817471.png)
 
-# Packaging
+## Packaging
 
 Learn how to package code, there are several options, so first want to just look at all of them before picking one to run with
 
@@ -220,31 +219,31 @@ Poetry also does a similar thin? There may be some [serious problems](https://ww
 
 What the heck is a wheel?
 
-# Plotting
+## Plotting
 
 I can plot out-of-the box to a pop-up window in VSCode if I use Run, but if I use ipython to run the code, I can't seem to be able to get the plots.
 
 In `./src/plotting.py` I placed sample code for a plotting function that handles the aesthetics well. It Accounts for; uncertainty bands, `.eps` formatting, size of plot for two column paper, and several other minor details.
 
-# Data Validation
+## Data Validation
 
 [Pydantic](https://www.youtube.com/watch?v=zN4VCb0LbQI)
 
-# Pandas
+## Pandas
 
-## Data Types for DataFrames
+### Data Types for DataFrames
 
 [Guide](https://youtu.be/-tU7fuUiq7w)
 
 [Guide](https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
 
-## `df.apply()`
+### `df.apply()`
 
 [df.apply()](https://www.geeksforgeeks.org/apply-function-to-every-row-in-a-pandas-dataframe/)
 
-## `SettingWithCopyWarning`
+### `SettingWithCopyWarning`
 
-[Guide](https://realpython.com/pandas-settingwithcopywarning/), simple explanation on how to deal with this. First line of defence: use `.loc` and `.iloc`
+[Guide](https://realpython.com/pandas-settingwithcopywarning/), simple explanation on how to deal with this. First line of defense: use `.loc` and `.iloc`
 
 ```Python
 df.loc[idx_label, col_label] = some_new_value
@@ -264,15 +263,15 @@ This returns a mask of boolean values to pick out rows. Now use this mask instea
 df.loc[mask, col_label] = some_new_value
 ```
 
-# SciKit-Learn
+## SciKit-Learn
 
 Want to be able to use sklearn without having to switch back and forth between numpy arrays and dataframes. Use [sklearn-pandas](https://github.com/scikit-learn-contrib/sklearn-pandas). I have successfully used this in `make_features.py` within the `dsc_roadmap` project; import `DataFrameMapper` and use it in conjunction with the sklearn `SimpleImputer`.
 
-## ShuffleSplit
+### ShuffleSplit
 
 [StackOverflow](https://stackoverflow.com/questions/34731421/whats-the-difference-between-kfold-and-shufflesplit-cv#:~:text=As%20your%20data%20set%20grows,ShuffleSplit%20is%20an%20attractive%20option.) on why ShuffleSplit is useful as training data size grows
 
-## `FutureWarning: This Pipeline instance is not fitted yet`
+### `FutureWarning: This Pipeline instance is not fitted yet`
 
 I created a custom class to use as part of a feature engineering `Pipeline` and was getting this warning. One way to get this warning to go away is to add an `Estimator` at the end of the `Pipeline` but that is undesirable as I want this pipeline to be dedicated to feature engineering.
 
@@ -290,7 +289,7 @@ class CustomClass(BaseEstimator, TransformerMixin):
 
 It seems like this works even if I only apply an underscore suffix to one (and not all) the attributes. Also not sure if it matter if it's a method instead. I don't understand why this works in the first place, but I can live with it and it enables the use of custom transformers to be used in `Pipelines`!
 
-# Experimental Setup
+## Experimental Setup
 
 [Guide](https://hydra.cc/docs/intro/) into how to use Hydra to help run experiments using Python.
 
@@ -300,11 +299,11 @@ It seems like this works even if I only apply an underscore suffix to one (and n
 
 [Video](https://www.youtube.com/watch?v=3gk9CvMOdzE) for hydra-zen
 
-# Model based testing
+## Model based testing
 
 There is the `hypothesis` python package. [Docs](https://hypothesis.readthedocs.io/en/latest/), [demonstration](https://youtu.be/-S3BFkNn0rQ)
 
-# Logging
+## Logging
 
 Don't pass logger around as a function input, instead import `logger` into each script of interest
 
