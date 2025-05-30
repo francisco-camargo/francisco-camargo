@@ -109,6 +109,24 @@ Deactivate the environment
 
 `deactivate`
 
+### `uv` on Windows
+
+[Guide](https://www.datacamp.com/tutorial/python-uv)
+
+As administrator, run the following on Windows PowerShell
+
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+To verify installation, open a new terminal and run
+
+```bash
+uv version
+```
+
+This ran in PowerShell and git bash
+
 ## Testing
 
 * [Testing](src/python/testing/README.md)
