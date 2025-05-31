@@ -109,6 +109,91 @@ Deactivate the environment
 
 `deactivate`
 
+### `uv` on Windows
+
+#### Installation
+
+[Guide](https://www.datacamp.com/tutorial/python-uv)
+
+As administrator, run the following on Windows PowerShell
+
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+To verify installation, open a new terminal and run
+
+```bash
+uv version
+```
+
+This ran in PowerShell and git bash
+
+#### New Project
+
+To start a new project, run
+
+```bash
+uv init <project name>
+```
+
+if a `git` repo already exists, within the repo you can just run
+
+```bash
+uv init
+```
+
+(or maybe)
+
+```bash
+ uv init .
+ ```
+
+ ?
+
+This creates several files, including `pyproject.toml`
+
+#### Virtual Environment and Package Management
+
+On a new project, with one command we create a virtual environment and install packages, for example, running
+
+```bash
+uv add pandas
+```
+
+results in
+
+```bash
+Creating virtual environment at: .venv
+Resolved 7 packages in 487ms
+Prepared 6 packages in 21.42s
+Installed 6 packages in 2.29s
+ + numpy==2.2.6
+ + pandas==2.2.3
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + six==1.17.0
+ + tzdata==2025.2
+ ```
+
+and it also updates `pyproject.toml` to include `pandas` as a dependency.
+
+To remove a dependency,
+
+```bash
+uv remove scikit-learn
+```
+
+#### Run code
+
+`uv` created a `.venv` folder which VSCode noticed and is not using as the virtual environment path.
+
+To run code from the terminal,
+
+```bash
+uv run <python file>
+```
+
 ## Testing
 
 * [Testing](src/python/testing/README.md)
