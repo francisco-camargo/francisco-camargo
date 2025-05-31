@@ -155,13 +155,13 @@ This creates several files, including `pyproject.toml`
 
 #### Virtual Environment and Package Management
 
-To create a virtual environment (euivalent to `python -m venv .venv`), run
+To create a virtual environment (equivalent to `python -m venv .venv`), run
 
 ```bash
 uv venv
 ```
 
-However, with one command we create a virtual environment and install packages, for example, running
+However, with one command we can create both a virtual environment and install packages, for example by running
 
 ```bash
 uv add pandas
