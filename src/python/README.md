@@ -170,6 +170,22 @@ Installed 6 packages in 2.29s
 
 and it also updates `pyproject.toml` to include `pandas` as a dependency.
 
+To remove a dependency,
+
+```bash
+uv remove scikit-learn
+```
+
+#### Run code
+
+`uv` created a `.venv` folder which VSCode noticed and is not using as the virtual environment path.
+
+To run code from the terminal,
+
+```bash
+uv run <python file>
+```
+
 ## Testing
 
 * [Testing](src/python/testing/README.md)
