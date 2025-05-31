@@ -143,6 +143,14 @@ if a `git` repo already exists, within the repo you can just run
 uv init
 ```
 
+(or maybe)
+
+```bash
+ uv init .
+ ```
+
+ ?
+
 This creates several files, including `pyproject.toml`
 
 #### Virtual Environment and Package Management
