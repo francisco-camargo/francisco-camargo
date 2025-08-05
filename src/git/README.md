@@ -132,6 +132,26 @@ For the password, use an [App password](https://support.atlassian.com/bitbucket-
 
 [Guide](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) from GitHub. However, when you are asked to login with your BitBucket credentials within the GitHub website, use your BitBucket [username ](https://bitbucket.org/account/settings/)and [app-password](https://bitbucket.org/account/settings/app-passwords/), [link](https://gist.github.com/mandiwise/5954bbb2e95c011885ff?permalink_comment_id=3756611#gistcomment-3756611). [Guide ](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)to generating a BitBucket app-password.
 
+## GitLab
+
+Made repo in GitLab. Cloning it via HTTTPS. Upon using `git clone` I get a pop-up asking for credentials. Tried to log in with my user ID and password but that did not work.
+
+![1746627242324](image/README/1746627242324.png)
+
+### GitLab SSH
+
+Let's try adding an SSH key via GitLab website GUI.
+
+![1746627621445](image/README/1746627621445.png)
+
+![1746627647047](image/README/1746627647047.png)
+
+To [generate an SSH key](https://docs.gitlab.com/user/ssh/#generate-an-ssh-key-pair)
+
+```bash
+ssh-keygen -t ed25519 -C "your comment"
+```
+
 ## git commands
 
 ### git diff
