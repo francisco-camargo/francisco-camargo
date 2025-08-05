@@ -72,6 +72,10 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 
 ## [Python](src/python/README.md)
 
+### PyTorch
+
+* [local-pytorch-with-docker](https://github.com/francisco-camargo/local-pytorch-with-docker)
+
 ## Railway
 
 * [Hello, World!](https://github.com/francisco-camargo/railway-hello-world)
