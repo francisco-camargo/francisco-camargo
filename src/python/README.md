@@ -48,7 +48,8 @@ sudo apt install python3-pip
   * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
   * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
   * `.pre-commit-config.yaml` [link](src\python\pre-commit\README.md)
-  * `venv`: set up virtual environments
+  * `.markdownlint.yaml` for Markdown file linting
+  * `uv` or `venv`: set up virtual environments
   * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
   * `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
   * logging config file
