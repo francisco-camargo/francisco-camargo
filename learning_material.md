@@ -45,6 +45,9 @@
 
 ## [git](src/git/README.md)
 
+## Infrastructure-as-Code
+* [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
+
 ## [LaTeX](src/latex/README.md)
 
 ## [Linux](src/linux/README.md)
@@ -75,6 +78,7 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 ### PyTorch
 
 * [local-pytorch-with-docker](https://github.com/francisco-camargo/local-pytorch-with-docker)
+* [cloud-pytorch-with-docker](https://github.com/francisco-camargo/cloud-pytorch-with-docker)
 
 ## Railway
 
