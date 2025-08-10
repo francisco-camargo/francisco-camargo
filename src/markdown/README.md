@@ -4,11 +4,11 @@
 
 ## Markdown Linting
 
-We cam control markdown linting with a `.markdownlint.json` file in conjunction with the `markdownlint` VS Code extension. An example of such a file is included in this directory.
+We cam control markdown linting with a `.markdownlint.yaml` file in conjunction with the `markdownlint` VS Code extension. An example of such a file is included in this directory.
 
 To use this configuration:
 - Install the `markdownlint` extension in VS Code
-- The `.markdownlint.json` file will be automatically detected and applied to markdown files in this directory
+- The `.markdownlint.yaml` file will be automatically detected and applied to markdown files in this directory
 - You can also run `markdownlint` from the command line with `npx markdownlint *.md` to check files manually
 
 ## Code Blocks
