@@ -4,11 +4,15 @@
 
 ## Cloud
 
+### AWS
+
+* [AWS CLI](src/aws/aws_cli/README.md)
+* [AWS CDK](src/aws/cdk/README.md)
+* [SageMaker](src/aws/sagemaker/README.md)
+
+### Infrastructure-as-Code
 * [Terraform](src/terraform/README.md)
-* AWS
-  * [AWS CLI](src/aws/aws_cli/README.md)
-  * [AWS CDK](src/aws/cdk/README.md)
-  * [SageMaker](src/aws/sagemaker/README.md)
+* [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
 
 ## Data Engineering
 
@@ -44,9 +48,6 @@
 * [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
 ## [git](src/git/README.md)
-
-## Infrastructure-as-Code
-* [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
 
 ## [LaTeX](src/latex/README.md)
 
