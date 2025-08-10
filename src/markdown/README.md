@@ -2,6 +2,15 @@
 
 [Return to top README.md](../../README.md)
 
+## Markdown Linting
+
+We cam control markdown linting with a `.markdownlint.json` file in conjunction with the `markdownlint` VS Code extension. An example of such a file is included in this directory.
+
+To use this configuration:
+- Install the `markdownlint` extension in VS Code
+- The `.markdownlint.json` file will be automatically detected and applied to markdown files in this directory
+- You can also run `markdownlint` from the command line with `npx markdownlint *.md` to check files manually
+
 ## Code Blocks
 
 Formatting code block [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks), [list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)of available tags
