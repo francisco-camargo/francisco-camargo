@@ -75,6 +75,7 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 ### PyTorch
 
 * [local-pytorch-with-docker](https://github.com/francisco-camargo/local-pytorch-with-docker)
+* [cloud-pytorch-with-docker](https://github.com/francisco-camargo/cloud-pytorch-with-docker)
 
 ## Railway
 
