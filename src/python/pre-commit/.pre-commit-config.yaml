@@ -8,7 +8,7 @@ repos:
     -   id: check-added-large-files  # Prevents accidentally committing large files
     -   id: debug-statements  # Checks for debugger imports and py37+ breakpoint() calls
     -   id: check-executables-have-shebangs  # Checks that all executable files have a shebang
-    -   id: name-tests-test  # Renames test files to match the "test_" prefix
+    -   id: name-tests-test  # Verifies that test files follow the "test_" naming convention
     -   id: requirements-txt-fixer  # Fixes issues in requirements.txt files
     -   id: trailing-whitespace  # Removes trailing whitespace
     -   id: end-of-file-fixer  # Ensures files end with a newline
