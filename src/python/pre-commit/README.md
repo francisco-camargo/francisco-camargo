@@ -61,6 +61,49 @@ The versions of each repo used for a hook must be stated explicitly within `.pre
 pre-commit autoupdate
 ```
 
+# Setting up detect-secrets
+
+The `detect-secrets` hook requires a baseline file to work properly. This file contains a record of all current "secrets" in your codebase that have been reviewed and approved.
+
+## Initial Setup
+
+Before running pre-commit for the first time with detect-secrets, create the baseline file:
+
+```bash
+detect-secrets scan --baseline .secrets.baseline
+```
+
+This will scan your entire repository and create a `.secrets.baseline` file containing any detected potential secrets.
+
+## Review and Update
+
+After creating the baseline, review the detected items:
+
+```bash
+detect-secrets audit .secrets.baseline
+```
+
+This opens an interactive audit where you can mark each detected item as a real secret (to be excluded) or a false positive (to be ignored in future scans).
+
+## Adding to Git
+
+The `.secrets.baseline` file should be committed to your repository:
+
+```bash
+git add .secrets.baseline
+git commit -m "Add secrets baseline for detect-secrets"
+```
+
+## Updating the Baseline
+
+When you add new legitimate "secrets" (like test API keys, example configurations, etc.), update the baseline:
+
+```bash
+detect-secrets scan --baseline .secrets.baseline --update
+```
+
+Then audit the new findings and commit the updated baseline file.
+
 # `mypy`
 
 [Cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) for `mypy`
