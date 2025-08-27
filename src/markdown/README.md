@@ -7,6 +7,7 @@
 We cam control markdown linting with a `.markdownlint.yaml` file in conjunction with the `markdownlint` VS Code extension. An example of such a file is included in this directory.
 
 To use this configuration:
+
 - Install the `markdownlint` extension in VS Code
 - The `.markdownlint.yaml` file will be automatically detected and applied to markdown files in this directory
 - You can also run `markdownlint` from the command line with `npx markdownlint *.md` to check files manually
@@ -93,17 +94,17 @@ Additionally, here the setting I use:
 
 ### PDF Options
 
-Here I have changed the output font size and margin spacing.q
+Here I have changed the output font size and margin spacing.
 
 ```bach
--V fontsize=12pt -V geometry:margin=1in
+-V fontsize=12pt -V geometry:margin=1in -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=gray
 ```
 
 ![1742135667749](image/README/1742135667749.png)
 
 ### Running Pandoc
 
-While viewing the `.md` file of interest, open the Command Palette (`ctrl + shift + p`) and look for and select `Pandoc Render`
+**_While viewing the `.md` file of interest_**, open the Command Palette (`ctrl + shift + p`) and look for and select `Pandoc Render`
 
 ![1743878458095](image/README/1743878458095.png)
 
