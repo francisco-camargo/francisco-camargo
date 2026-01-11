@@ -11,6 +11,7 @@
 * [SageMaker](src/aws/sagemaker/README.md)
 
 ### Infrastructure-as-Code
+
 * [Terraform](src/terraform/README.md)
 * [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
 
@@ -24,7 +25,7 @@
 
 ## [Docker](src/docker/README.md)
 
-* [Docker installation](https://github.com/francisco-camargo/dev-workflow/blob/main/src/docker/README.md)
+* [Docker installation](src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
   * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
   * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
