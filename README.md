@@ -4,6 +4,8 @@
 
 ## Machine Learning
 
+The following are private repos, access granted upon request
+
 * Georgia Tech - CS7641 Machine Learning
   * Supervised Learning
     * [Source code](https://github.com/francisco-camargo/cs7641-machine-learning-p1-supervised-learning-src)
