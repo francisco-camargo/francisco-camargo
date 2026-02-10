@@ -41,7 +41,7 @@ sudo apt-get update
 sudo apt-get install ./docker-desktop-amd64.deb
 ```
 
-## Launch Docker Desktop
+### Launch Docker Desktop
 
 To start Docker Desktop for Linux, search Docker Desktop on the Applications menu and open it.
 
@@ -51,7 +51,7 @@ Or instead, from the terminal, run
 systemctl --user start docker-desktop
 ```
 
-## Sign in into Docker Desktop
+### Sign in into Docker Desktop
 
 If you are unable to sign in into Docker Desktop for Linux, it is likely because you much [enable `pass`](https://docs.docker.com/desktop/get-started/#signing-in-with-docker-desktop-for-linux)
 
