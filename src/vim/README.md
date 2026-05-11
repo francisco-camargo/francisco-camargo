@@ -16,6 +16,8 @@ sudo apt install vim
 
 If you use VSCode you can also use Vim via the **Vim** extension, and you can learn Vim via the **Learn Vim** extension. The **Learn Vim** [book](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/dedication/), and [reference](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/cheatsheet) of Vim commands.
 
+To changes Vim keybingings, make changes to the `keybingings.json` file, e.g. `AppData/Roaming/Code/User/keybingins.json`
+
 [Guide](https://hoitz.medium.com/improved-vim-setup-in-visual-studio-code-bc579501b80c) on how to customize Vim keybindings within VSCode.
 
 # Vim Commands
