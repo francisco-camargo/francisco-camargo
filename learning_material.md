@@ -41,6 +41,10 @@
 * [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
 * [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
+## Dotfiles
+
+* [dotfiles](https://github.com/francisco-camargo/dotfiles) Claude Code configuration (`~/.claude/`) tracked in git and symlinked into place by `install.sh`, so every machine shares one source of truth
+
 ## [FastAPI](src/fastapi/README.md)
 
 * [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
