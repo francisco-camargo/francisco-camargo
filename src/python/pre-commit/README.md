@@ -116,7 +116,7 @@ It is possible, though [not recommended](https://github.com/pre-commit/pre-commi
 
 [link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
 
-Added a sample `.pre-commit-config.yaml` to under the parent directory
+The `.pre-commit-config.yaml` I use lives in [repo-template](https://github.com/francisco-camargo/repo-template/blob/main/template/.pre-commit-config.yaml)
 
 # Code Format (old)
 
