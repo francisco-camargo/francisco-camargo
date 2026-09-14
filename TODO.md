@@ -8,9 +8,6 @@ Invasive ones move files, change URLs, or change how the site deploys.
 ## Light
 
 - Delete the chatbot leftover in the MLOps section of `learning_material.md` ("Would you be looking to implement LGTM..."), and cut the pasted list of job roles to a line saying what LGTM is
-- Fix the "Return to top" link in `src/fastapi/README.md`, which climbs one directory too far
-- Fix the pre-commit link in `src/python/README.md`: it uses backslashes and a path from the repo root, so it should read `pre-commit/README.md`
-- Fix the testing link in `src/python/README.md` the same way: `testing/README.md`
 - Fill in or remove the stubs: `src/aws/sagemaker/README.md`, `src/python/testing/README.md`, and the bare "Orchestration" and "Data Versioning" bullets in `learning_material.md`
 - Say how to request access to the private coursework repos, since the README offers access but gives no way to ask
 - Remove the citation section from `README.md`, or give it a real title; "Title: Francisco Camargo" and a blank "Date Accessed" read as a template left unfilled
@@ -19,7 +16,7 @@ Invasive ones move files, change URLs, or change how the site deploys.
 
 ## Moderate
 
-- Bring in the repo-template files the repo lacks (`.gitignore`, `.editorconfig`, `.pre-commit-config.yaml`, `cspell.json`, `SECURITY.md`) and run `pre-commit install`; lychee would have caught the broken links above
+- Bring in the repo-template files the repo lacks (`.gitignore`, `.editorconfig`, `cspell.json`, `SECURITY.md`)
 - Turn on secret scanning push protection and private vulnerability reporting, both off on this public repo
 - Copy the screenshot in `src/testing/README.md` into this repo; it lives in the `dev-workflow` repo's uploads, and breaks if that repo goes away
 - Add a way to reach you to `README.md`: email, LinkedIn, or a resume link
