@@ -15,7 +15,7 @@ Advice
 * A solution in search of a problem. ML is a solution but we are dealing with quantitative problems that may not need ML
 * Product owner sets the stage and the vision, but the solution design must be driven by engineering
 * No product management
-* Gap in skills/ roles; cloud eng, data eng, mlops, sme, end-user
+* Gap in skills/ roles; cloud eng, data eng, mlops, subject-matter experts, end-user
 * Poor communication between the parties involved
 
 # Technical Presentations for a General Audience

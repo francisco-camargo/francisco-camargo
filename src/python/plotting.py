@@ -4,10 +4,16 @@ papers
 '''
 
 import matplotlib.pyplot as plt
+import pandas as pd
 from matplotlib import colors
+from matplotlib.lines import Line2D
 
 
-def make_rgb_transparent(rgb, bg_rgb, alpha):
+def make_rgb_transparent(
+    rgb: tuple[float, ...],
+    bg_rgb: tuple[float, ...],
+    alpha: float,
+) -> list[float]:
     '''
     determine transparent color equivalents
     https://stackoverflow.com/questions/33371939/calculate-rgb-equivalent-of-base-colors-with-alpha-of-0-5-over-white-background
@@ -15,7 +21,11 @@ def make_rgb_transparent(rgb, bg_rgb, alpha):
     return [alpha * c1 + (1 - alpha) * c2 for (c1, c2) in zip(rgb, bg_rgb)]
 
 
-def get_transparent_color(plot_object, bg_rgb=(1, 1, 1), alpha=0.2):
+def get_transparent_color(
+    plot_object: list[Line2D],
+    bg_rgb: tuple[float, ...] = (1, 1, 1),
+    alpha: float = 0.2,
+) -> list[float]:
     '''
     Find the alpha transparency equivalent of an input object
     '''
@@ -33,14 +43,14 @@ alpha = 0.2
 
 
 def plotter(
-    df,
+    df: pd.DataFrame,
     independent_variable: str,
     dependent_variable: str,
     dependent_variable_halfband: str,
     legend_loc: str = 'best',
     show: bool = False,
-    save_path=None,
-):
+    save_path: str | None = None,
+) -> None:
     '''
     Plot multiple columns from a pandas dataframe
     '''

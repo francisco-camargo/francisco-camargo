@@ -124,7 +124,7 @@ guide for using `black` and `flake8` and `isort` in a `pyproject.toml`, also tal
 
 `black` [guide](https://medium.com/@josephlyu.sj/python-auto-formatter-autopep8-vs-black-and-some-practical-tips-e71adb24aee1)
 
-Code formatting shortcut in VSCode **Alt+Shift+f** or look for `Format Document` in the command pallette
+Code formatting shortcut in VSCode **Alt+Shift+f** or look for `Format Document` in the command palette
 
 Gonna go with `black`, [guide](https://black.readthedocs.io/en/stable/getting_started.html). Add it to `requirements.txt`
 
