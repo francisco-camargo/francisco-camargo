@@ -17,7 +17,7 @@ python --version
 >>> Python3.11.0
 ```
 
-If you use VSCode, be sure that the desired Python Interpreter is used: from the Command Pallette search for `Python: Select Interpreter`. Can check the bottom right of the window:
+If you use VSCode, be sure that the desired Python Interpreter is used: from the Command Palette search for `Python: Select Interpreter`. Can check the bottom right of the window:
 
 ![1670921755378](1670921755378.png)
 
@@ -47,7 +47,7 @@ sudo apt install python3-pip
   * `.gitattributes`: use to control end-of-line characters when committing to remote
   * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
   * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
-  * `.pre-commit-config.yaml` [link](src\python\pre-commit\README.md)
+  * `.pre-commit-config.yaml` [link](pre-commit/README.md)
   * `.markdownlint.yaml` for Markdown file linting
   * `uv` or `venv`: set up virtual environments
   * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
@@ -203,7 +203,7 @@ uv run <python file>
 
 ## Testing
 
-* [Testing](src/python/testing/README.md)
+* [Testing](testing/README.md)
 
 ## Importing local code from other directories
 
@@ -211,15 +211,15 @@ Assume you have the following folder structure:
 
 ```shell
 parent
-  scriptE.py
+  script_e.py
   folder1
-    scriptA.py
-    scriptB.py
+    script_a.py
+    script_b.py
     folder3
-      scriptF.py
+      script_f.py
   folder2
-    scriptC.py
-    scriptD.py
+    script_c.py
+    script_d.py
 ```
 
 and the current working directory is `folder1`.
@@ -228,20 +228,20 @@ If you need to run from a submodule directly such that `__name__` is `'__main__'
 
 ```python
 try:
-    from folder1.folder3 import scriptF
+    from folder1.folder3 import script_f
 except ModuleNotFoundError as e:
     sys.path.append(os.getcwd())
-    from folder1.folder3 import scriptF
+    from folder1.folder3 import script_f
 ```
 
 If you want to do relative imports: good [write-up](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time). My current understanding is that whatever script is `'__main__'` will not be able to utilize relative imports!
 
 Again assume the current working directory is `folder1`:
 
-* For `scriptB.py`, use `import scriptB`
-* For `scriptF.py`, use `import folder3.scriptF`
-* For `scriptE.py`, you _must_ use the `from` syntax; `from ..scriptE import *`
-* For `scriptC.py`, use `from ..folder2.scriptC`
+* For `script_b.py`, use `import script_b`
+* For `script_f.py`, use `import folder3.script_f`
+* For `script_e.py`, you _must_ use the `from` syntax; `from ..script_e import *`
+* For `script_c.py`, use `from ..folder2.script_c`
 
 Here are some useful commands to help debug some of these issues:
 
@@ -307,7 +307,7 @@ Learn how to package code, there are several options, so first want to just look
 
 [Guide](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/), in it, they say: nowadays the use of setup.py is discouraged in favour of pyproject.toml together with setup.cfg. Find out how to use those [here](https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml/).
 
-Poetry also does a similar thin? There may be some [serious problems](https://www.youtube.com/watch?v=Gr9o8MW_pb0) with Poetry. [webpage](https://python-poetry.org/) Sounds like poetry also does dependance management, so maybe use it instead of `venv`? [Poetry intro](https://youtu.be/0f3moPe_bhk) from ArjanCodes, who seems happy with it. Sounds like it can help with package publishing.
+Poetry also does a similar thin? There may be some [serious problems](https://www.youtube.com/watch?v=Gr9o8MW_pb0) with Poetry. [webpage](https://python-poetry.org/) Sounds like poetry also does dependency management, so maybe use it instead of `venv`? [Poetry intro](https://youtu.be/0f3moPe_bhk) from ArjanCodes, who seems happy with it. Sounds like it can help with package publishing.
 
 What the heck is a wheel?
 

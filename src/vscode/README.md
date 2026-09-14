@@ -9,7 +9,7 @@ I use the **Dark+** color theme.
 
 # Open Settings
 
-Open up the command pallette (**Ctrl+Shift+p**) and then choose from:
+Open up the command palette (**Ctrl+Shift+p**) and then choose from:
 
 * `Preferences: Open Keyboard Shortcuts`
 * `Preferences: Open Settings (UI)`
