@@ -17,6 +17,7 @@ repos:
         exclude: \.svg$
       - id: mixed-line-ending # Converts line endings to LF
         args: [--fix=lf]
+        exclude: \.svg$
       - id: debug-statements # Checks for debugger imports and breakpoint() calls
       - id: name-tests-test # Verifies that test files follow the "test_" naming convention
         args: [--pytest-test-first]
@@ -31,7 +32,6 @@ repos:
     rev: v2.4.3
     hooks:
       - id: codespell # Checks for common misspellings
-        additional_dependencies: [tomli] # Reads settings from pyproject.toml on Python before 3.11
         exclude: \.svg$ # Encoded image data reads as misspelled words
 
   - repo: https://github.com/lycheeverse/lychee

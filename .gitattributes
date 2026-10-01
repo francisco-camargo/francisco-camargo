@@ -1,9 +1,4 @@
-# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+# Normalize to LF so shell scripts work on every platform.
+* text=auto eol=lf
 
-* text eol=lf
-
-# Denote all files that are truly binary and should not be modified.
-*.png binary
-*.jpg binary
 *.pdf binary
-*.ico binary
