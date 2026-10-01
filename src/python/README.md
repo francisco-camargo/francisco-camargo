@@ -4,7 +4,7 @@
 
 ## Install Python on Windows
 
-[Link](https://www.python.org/downloads/) to download Python.
+[Download Python](https://www.python.org/downloads/).
 
 During installation, be sure to add Python to PATH:
 
@@ -40,25 +40,25 @@ sudo apt install python3-pip
 ## Project structure
 
 * Things to consider adding/using when making a new Python project
-  * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
-  * `README.md`
-  * `LICENSE`
-  * `.gitignore`
-  * `.gitattributes`: use to control end-of-line characters when committing to remote
-  * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
-  * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
-  * `.pre-commit-config.yaml` [link](pre-commit/README.md)
-  * `.markdownlint.yaml` for Markdown file linting
-  * `uv` or `venv`: set up virtual environments
-  * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
-  * `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
-  * logging config file
-  * `src` and `tests` directories
-  * CI config files, e.g. `.github/workflows/ci.yaml`
+    * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+    * `README.md`
+    * `LICENSE`
+    * `.gitignore`
+    * `.gitattributes`: use to control end-of-line characters when committing to remote
+    * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
+    * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
+    * `.pre-commit-config.yaml`, see the [pre-commit notes](pre-commit/README.md)
+    * `.markdownlint.yaml` for Markdown file linting
+    * `uv` or `venv`: set up virtual environments
+    * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
+    * `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
+    * logging config file
+    * `src` and `tests` directories
+    * CI config files, e.g. `.github/workflows/ci.yaml`
 
 ## Python Code Environment
 
-Download and install Python from [link](https://www.python.org/downloads/)
+Download and install Python from [python.org](https://www.python.org/downloads/)
 
 ### `venv` on Windows
 
@@ -86,7 +86,7 @@ To deactivate an active environment, use
 
 ### `venv` on Ubuntu
 
-On Ubuntu, you may need to install `python3-venv`, [link](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu)
+On Ubuntu, you may need to install `python3-venv`, as [this Ask Ubuntu answer](https://askubuntu.com/questions/1328392/how-to-activate-a-virtual-environment-in-ubuntu) explains
 
 `sudo apt install python3-venv`
 
@@ -305,7 +305,7 @@ Learn how to package code, there are several options, so first want to just look
 
 [Guide](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#configuring-your-project)
 
-[Guide](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/), in it, they say: nowadays the use of setup.py is discouraged in favour of pyproject.toml together with setup.cfg. Find out how to use those [here](https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml/).
+[Guide](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/), in it, they say: nowadays the use of setup.py is discouraged in favour of pyproject.toml together with setup.cfg. Their [guide to setuptools and pyproject.toml](https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml/) shows how to use those.
 
 Poetry also does a similar thin? There may be some [serious problems](https://www.youtube.com/watch?v=Gr9o8MW_pb0) with Poetry. [webpage](https://python-poetry.org/) Sounds like poetry also does dependency management, so maybe use it instead of `venv`? [Poetry intro](https://youtu.be/0f3moPe_bhk) from ArjanCodes, who seems happy with it. Sounds like it can help with package publishing.
 
