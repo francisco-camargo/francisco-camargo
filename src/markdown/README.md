@@ -9,7 +9,7 @@ Every repo built from [repo-template](https://github.com/francisco-camargo/repo-
 
 ### How the pieces fit
 
-- **`.markdownlint.yaml`** at the repo root holds the rules: markdownlint's defaults, with line length (MD013) off, since one sentence per line makes long lines normal, and nested list indents (MD007) at 4 spaces.
+- **`.markdownlint.yaml`** at the repo root holds the rules: markdownlint's defaults, with the changes listed in [repo-template's README](https://github.com/francisco-camargo/repo-template#markdown-linting).
 - **The pre-commit hook**, `markdownlint-cli2` in `.pre-commit-config.yaml`, lints the Markdown files in each commit. It runs with `--fix`, so it fixes what it can and fails the commit, leaving the fixes for you to review and stage. Anything it cannot fix fails the commit with the file, line, and rule.
 - **The VS Code extension**, [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint), reads the same file and underlines problems as you type. The user setting `"source.fixAll.markdownlint": "explicit"` under `editor.codeActionsOnSave` applies its fixes on save.
 - **`~/.markdownlint.yaml`** holds the rules for a repo without a config of its own. The user setting `"markdownlint.configFile": "${userHome}/.markdownlint.yaml"` points the extension at it. A repo's own file takes precedence.
