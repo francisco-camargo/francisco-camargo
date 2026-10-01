@@ -1,4 +1,0 @@
-default: True
-MD013: False
-MD007:
-  indent: 4
