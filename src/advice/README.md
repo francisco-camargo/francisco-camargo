@@ -1,11 +1,10 @@
-Advice
-======
+# Advice
 
-# Career
+## Career
 
 * [Software Engineer](https://atomic.guide/)
 
-# ML Pitfalls
+## ML Pitfalls
 
 * Personnel interdependence and complexity. Too many cooks and they are not in sync
 * Lack of stakeholder demand for solution and willingness to change the current process
@@ -18,7 +17,7 @@ Advice
 * Gap in skills/ roles; cloud eng, data eng, mlops, subject-matter experts, end-user
 * Poor communication between the parties involved
 
-# Technical Presentations for a General Audience
+## Technical Presentations for a General Audience
 
 * Have a slide or two to introduce yourself and your team. You can consider this talk as an opportunity to do marketing for you and your team; sell us on the notion that you are doing good work and inform us as to when the rest of the company should think to reach out to you
 * What are the 2 or 3 big points that you want the audience to think about after the talk is over. If they were to summarize your presentation to someone else, what would you want them to say? I strongly recommend that you write these down for yourself and as you put slides together, ask yourself "is this content in service of the main points I want my audience to take away?"
