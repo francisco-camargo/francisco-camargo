@@ -1,11 +1,10 @@
-AWS Cloud Development Kit (CDK)
-===============================
+# AWS Cloud Development Kit (CDK)
 
 [Return to top README.md](../../../README.md)
 
 TODO: try to do this within a Docker Container
 
-# Install CDK
+## Install CDK
 
 [AWS Getting Started Guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
@@ -13,7 +12,7 @@ TODO: try to do this within a Docker Container
 * [Option B](https://aws.plainenglish.io/run-aws-cdk-in-a-docker-container-bcb307ccf232)
 * [Option C](https://medium.com/dataengineerbr/creating-a-local-environment-to-develop-on-aws-cdk-with-docker-and-vscode-f26569d30870), [repo](https://github.com/contino/docker-aws-cdk)
 
-# Initialize
+## Initialize
 
 To initialize an Application, go to the desired parent directory for the project and run
 
@@ -52,7 +51,7 @@ The `requirements.txt` file contains
 
 The `requirements-dev.txt` file contains `pytest`
 
-# `app.py`
+## `app.py`
 
 The app will invoke any Stacks of interest
 
@@ -80,7 +79,7 @@ ProjectStack(app, "ProjectStack",
 app.synth()
 ```
 
-# Constructs
+## Constructs
 
 A Stack is made up of Constructs, here are references for a few
 
@@ -88,7 +87,7 @@ A Stack is made up of Constructs, here are references for a few
 * [Function](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html)
 * [Bucket](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_s3/Bucket.html)
 
-# Synthesize and Deploy
+## Synthesize and Deploy
 
 Run
 
