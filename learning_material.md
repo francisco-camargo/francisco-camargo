@@ -20,16 +20,16 @@
 * [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 * [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
 * Data Versioning
-  * DVC (Data Version Control)
-  * Guild.ai
+    * DVC (Data Version Control)
+    * Guild.ai
 
 ## [Docker](src/docker/README.md)
 
 * [Docker installation](src/docker/README.md)
 * [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
-  * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-  * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-  * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
+    * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
+    * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
+    * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
 * [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
 * [toy-db-with-docker](https://github.com/francisco-camargo/toy-db-with-docker)
 * [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)

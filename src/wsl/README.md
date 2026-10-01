@@ -28,6 +28,7 @@ wsl --distribution <distribution name>
 Can use optional `--user` option
 
 Once you run this and a WSL terminal opens up, you may not be in the home directory, so may be good idea to run
+
 ```bash
 cd ~
 ```

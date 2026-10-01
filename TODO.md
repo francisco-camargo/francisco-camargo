@@ -28,7 +28,7 @@ Invasive ones move files, change URLs, or change how the site deploys.
 
 Rename the default branch from `master` to `main`.
 
-Take care: GitHub Pages builds https://francisco-camargo.github.io/francisco-camargo/ from `master`.
+Take care: GitHub Pages builds <https://francisco-camargo.github.io/francisco-camargo/> from `master`.
 Pages uses the legacy build (source: branch `master`, path `/`), set in the repo's Pages settings rather than in a workflow file.
 
 Steps:
