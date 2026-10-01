@@ -1,15 +1,14 @@
-Terraform
-=========
+# Terraform
 
 [Return to top README.md](../../README.md)
 
-# Installation
+## Installation
 
 [Docs](https://developer.hashicorp.com/terraform/tutorials)
 
 [AWS Docs](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
 
-## Manual Install on Windows
+### Manual Install on Windows
 
 Download and unzip the `terraform` binary. Decided where to store it, eg.
 

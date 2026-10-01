@@ -1,13 +1,12 @@
-AWS CLI
-=======
+# AWS CLI
 
 [Return to top README.md](../../../README.md)
 
-# Docker Image
+## Docker Image
 
-[link](https://hub.docker.com/r/amazon/aws-cli)
+[amazon/aws-cli on Docker Hub](https://hub.docker.com/r/amazon/aws-cli)
 
-# Install AWS CLI
+## Install AWS CLI
 
 [AWS CLI getting started docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 
@@ -17,7 +16,7 @@ verify installation with
 aws --version
 ```
 
-## `config` file
+### `config` file
 
 Use the aws [configure wizard](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html#sso-configure-profile-token-auto-sso) to setup the `config` file
 
@@ -43,11 +42,11 @@ Running the wizard will create the folder
 ~/.aws
 ```
 
-Additionally, the wizard will have populated this directory with a `config` file which contains the info you provided to `aws configure sso`. However, a `credentials `file has not yet been created. I have been able to `git clone` without needing to set up a `credentials` file.
+Additionally, the wizard will have populated this directory with a `config` file which contains the info you provided to `aws configure sso`. However, a `credentials` file has not yet been created. I have been able to `git clone` without needing to set up a `credentials` file.
 
 [Docs](https://docs.aws.amazon.com/sdkref/latest/guide/file-location.html) on file location
 
-## `credentials` file
+### `credentials` file
 
 To interact with AWS services (eg. pull data to local), you will need to set up a `credentials` file. To run the setup wizard, run
 
@@ -67,7 +66,7 @@ Click on "Command line or programmatic access"
 
 By default, `boto3` will use the default `credentials` profile. To use another profile, you have to point to it somehow, here are some [options](https://stackoverflow.com/questions/33378422/how-to-choose-an-aws-profile-when-using-boto3-to-connect-to-cloudfront)
 
-# SSO Log In
+## SSO Log In
 
 To login
 
@@ -95,7 +94,7 @@ There is also
 aws configure list-profiles
 ```
 
-# CodeCommit
+## CodeCommit
 
 After installing `git`, install `git-remote-codecommit`
 
@@ -126,28 +125,30 @@ git clone codecommit::<region>://<repo name>
 
 which I think uses the default AWS config profile, so just means that the default profile has to have all the info needed
 
-# `boto3`
+## `boto3`
 
-When accessing resources via `boto3`, credentials are needed. [Here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html) is how `boto3` determines which credentials profile is used. [Here ](https://stackoverflow.com/questions/33378422/how-to-choose-an-aws-profile-when-using-boto3-to-connect-to-cloudfront)are some code examples of setting the profile, note that some of these answers have outdated syntax.
+When accessing resources via `boto3`, credentials are needed. The [boto3 credentials guide](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html) explains how `boto3` determines which credentials profile is used. [These Stack Overflow answers](https://stackoverflow.com/questions/33378422/how-to-choose-an-aws-profile-when-using-boto3-to-connect-to-cloudfront) have code examples of setting the profile; some use outdated syntax.
 
 2024-01-12 I onboarded someone to AWS and they were able to use `boto3` to pull data from S3 without having to set up credentials. I suspect it depends on how the AWS account was set up.
 
 2025-02-13 To run code using `boto3` via AWS SSO:
-* Have `.aws/config` set up for AWS SSO
-* Login to AWS SSO (e.g. `aws sso login --profile <profile>`)
-* Now can run Python code
+
+- Have `.aws/config` set up for AWS SSO
+- Login to AWS SSO (e.g. `aws sso login --profile <profile>`)
+- Now can run Python code
+
 ```python
 boto3.setup_default_session(profile_name)
 bedrock_runtime = boto3.client(service_name)
 ```
 
-# Summary
+## Summary
 
 Currently I have three places of interest where a "profile" needs to be specified.
 
-* `aws sso login --profile <config profile>`
-* `git clone codecommit::<region>://<config profile>@<repo name>`
-* `boto3.setup_default_session(profile_name=<credentials profile>)`
+- `aws sso login --profile <config profile>`
+- `git clone codecommit::<region>://<config profile>@<repo name>`
+- `boto3.setup_default_session(profile_name=<credentials profile>)`
 
 The last one is used in code to interact with AWS services. When code is deployed on AWS, I am not sure how profiles are handled, or if they are even needed...
 

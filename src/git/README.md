@@ -81,13 +81,13 @@ For the password use a personal access token (PAT). It seems that in order to ma
 
 [Guide](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on how to create a PAT. At the top of the guide there are some valuable warnings, including one on using encrypted secrets; not storing sensitive info in repos.
 
-<img src="../../image/README/1670732984366.png" width="500">
+<img src="../../image/README/1670732984366.png" width="500" alt="GitHub's warning to treat personal access tokens like passwords">
 
 ### Trying it
 
 When I do `git push` on a new machine I get the following pop-up:
 
-<img src="../../image/README/1670731520949_b.png" width="350">
+<img src="../../image/README/1670731520949_b.png" width="350" alt="GitHub login pop-up asking for a username or email and a password">
 
 I tried using my noreply email and PAT, but that did not work and instead the CLI prompted me to enter my username. I used my noreply email and got a pop-up asking for my password. I used a new PAT (created in the moment for the machine I am using), and I was able to successfully push to the remote repo.
 
@@ -130,7 +130,7 @@ For the password, use an [App password](https://support.atlassian.com/bitbucket-
 
 ### Transfer Repo from BitBucket to GitHub
 
-[Guide](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) from GitHub. However, when you are asked to login with your BitBucket credentials within the GitHub website, use your BitBucket [username ](https://bitbucket.org/account/settings/)and [app-password](https://bitbucket.org/account/settings/app-passwords/), [link](https://gist.github.com/mandiwise/5954bbb2e95c011885ff?permalink_comment_id=3756611#gistcomment-3756611). [Guide ](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/)to generating a BitBucket app-password.
+[Guide](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) from GitHub. However, when you are asked to login with your BitBucket credentials within the GitHub website, use your BitBucket [username](https://bitbucket.org/account/settings/) and [app-password](https://bitbucket.org/account/settings/app-passwords/), as [a comment on mandiwise's gist](https://gist.github.com/mandiwise/5954bbb2e95c011885ff?permalink_comment_id=3756611#gistcomment-3756611) explains. [Guide](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/) to generating a BitBucket app-password.
 
 ## GitLab
 
@@ -192,13 +192,13 @@ The guide also describes how to "squash and merge" during pull requests in GitHu
 
 ### git time machine
 
-https://stackoverflow.com/questions/40253526/get-changes-from-another-branch-without-affecting-current-branch-at-all
+<https://stackoverflow.com/questions/40253526/get-changes-from-another-branch-without-affecting-current-branch-at-all>
 
-https://stackoverflow.com/questions/5340724/get-changes-from-master-into-branch-in-git
+<https://stackoverflow.com/questions/5340724/get-changes-from-master-into-branch-in-git>
 
-https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
+<https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit>
 
-Create branch using old commit, [link](https://stackoverflow.com/questions/8483983/how-to-create-the-branch-from-a-specific-commit-in-a-different-branch).
+[Create a branch from an old commit](https://stackoverflow.com/questions/8483983/how-to-create-the-branch-from-a-specific-commit-in-a-different-branch).
 
 ```bash
 git checkout -b <new-branch-name> <commit id>
@@ -218,6 +218,6 @@ github.com/francisco-camargo/vidly/compare/04f5f58...e892d14
 
 ## Git End-of-Line handling
 
-By default, when committing changes, `git` converts end-of-line characters depending on the OS. For example, if on a Windows machines, EOL will be changed to CRLF. [Here](https://betterstack.com/community/questions/git-replacing-lf-with-crlf/) is a guide on how to change this `git` setting locally.
+By default, when committing changes, `git` converts end-of-line characters depending on the OS. For example, if on a Windows machines, EOL will be changed to CRLF. Better Stack has [a guide to changing this `git` setting locally](https://betterstack.com/community/questions/git-replacing-lf-with-crlf/).
 
-[Here](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings) is a guide on how to make these changes stick to the repo. I have a working example of a `.gitattributes` file in this repo. [Discussion](https://stackoverflow.com/questions/73573683/editing-gitattributes-to-normalize-line-endings-doesnt-work), [docs](https://git-scm.com/docs/gitattributes), [origin of .gitattributes](https://github.com/gitattributes/gitattributes/blob/master/.gitattributes), [working with .gitignore](https://stackoverflow.com/questions/18331048/how-to-create-a-git-attributes-file).
+GitHub's [guide to configuring Git to handle line endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings) shows how to make these changes stick to the repo. I have a working example of a `.gitattributes` file in this repo. [Discussion](https://stackoverflow.com/questions/73573683/editing-gitattributes-to-normalize-line-endings-doesnt-work), [docs](https://git-scm.com/docs/gitattributes), [origin of .gitattributes](https://github.com/gitattributes/gitattributes/blob/master/.gitattributes), [working with .gitignore](https://stackoverflow.com/questions/18331048/how-to-create-a-git-attributes-file).

@@ -1,19 +1,18 @@
-AWS Cloud Development Kit (CDK)
-===============================
+# AWS Cloud Development Kit (CDK)
 
 [Return to top README.md](../../../README.md)
 
 TODO: try to do this within a Docker Container
 
-# Install CDK
+## Install CDK
 
 [AWS Getting Started Guide](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
-* [Option A](https://miguelacallesmba.medium.com/using-docker-for-aws-cdk-development-7054086deb3d)
-* [Option B](https://aws.plainenglish.io/run-aws-cdk-in-a-docker-container-bcb307ccf232)
-* [Option C](https://medium.com/dataengineerbr/creating-a-local-environment-to-develop-on-aws-cdk-with-docker-and-vscode-f26569d30870), [repo](https://github.com/contino/docker-aws-cdk)
+- [Option A](https://miguelacallesmba.medium.com/using-docker-for-aws-cdk-development-7054086deb3d)
+- [Option B](https://aws.plainenglish.io/run-aws-cdk-in-a-docker-container-bcb307ccf232)
+- [Option C](https://medium.com/dataengineerbr/creating-a-local-environment-to-develop-on-aws-cdk-with-docker-and-vscode-f26569d30870), [repo](https://github.com/contino/docker-aws-cdk)
 
-# Initialize
+## Initialize
 
 To initialize an Application, go to the desired parent directory for the project and run
 
@@ -33,26 +32,26 @@ Is this ran properly, a `.venv` environment folder will have been created unto w
 
 Additionally, several other files are made including
 
-* `.git`
-* `.gitignore`
-* `.venv`
-* `README.md`
-* `app.py`
-* `cdk.json`
-* `requirements-dev.txt`
-* `requirements.txt`
-* `source.bat`
-* `tests`
-* A folder with the same name as the parent directory which contains a stack python script
+- `.git`
+- `.gitignore`
+- `.venv`
+- `README.md`
+- `app.py`
+- `cdk.json`
+- `requirements-dev.txt`
+- `requirements.txt`
+- `source.bat`
+- `tests`
+- A folder with the same name as the parent directory which contains a stack python script
 
 The `requirements.txt` file contains
 
-* `aws-cdk-lib`
-* `constructs`
+- `aws-cdk-lib`
+- `constructs`
 
 The `requirements-dev.txt` file contains `pytest`
 
-# `app.py`
+## `app.py`
 
 The app will invoke any Stacks of interest
 
@@ -80,15 +79,15 @@ ProjectStack(app, "ProjectStack",
 app.synth()
 ```
 
-# Constructs
+## Constructs
 
 A Stack is made up of Constructs, here are references for a few
 
-* [Role](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_iam/Role.html)
-* [Function](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html)
-* [Bucket](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_s3/Bucket.html)
+- [Role](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_iam/Role.html)
+- [Function](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html)
+- [Bucket](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_s3/Bucket.html)
 
-# Synthesize and Deploy
+## Synthesize and Deploy
 
 Run
 

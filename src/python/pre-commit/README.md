@@ -1,9 +1,8 @@
-pre-commit
-==========
+# pre-commit
 
 [Return to top README.md](../../../README.md)
 
-# Installation
+## Installation
 
 [Docs](https://pre-commit.com/)
 
@@ -17,7 +16,7 @@ validate with
 pre-commit --version
 ```
 
-# Usage
+## Usage
 
 Create a `.pre-commit-config.yaml` file underneath the parent directory. Populate this file with all the pre-commit hooks of interest. Can get a sample set of hooks by running
 
@@ -53,7 +52,7 @@ If in the future you add more hooks to `.pre-commit-config.yaml`, you don't have
 
 [Guide](https://stackoverflow.com/questions/61032281/exclude-some-files-on-running-black-using-pre-commit) to exclude specific folders from being checked during run of `pre-commit`
 
-# `pre-commit autoupdate`
+## `pre-commit autoupdate`
 
 The versions of each repo used for a hook must be stated explicitly within `.pre-commit-config.yaml` which implies needing to manually update these values over time. However, you can update these values automatically by running
 
@@ -61,11 +60,11 @@ The versions of each repo used for a hook must be stated explicitly within `.pre
 pre-commit autoupdate
 ```
 
-# Setting up detect-secrets
+## Setting up detect-secrets
 
 The `detect-secrets` hook requires a baseline file to work properly. This file contains a record of all current "secrets" in your codebase that have been reviewed and approved.
 
-## Initial Setup
+### Initial Setup
 
 Before running pre-commit for the first time with detect-secrets, create the baseline file:
 
@@ -75,7 +74,7 @@ detect-secrets scan --baseline .secrets.baseline
 
 This will scan your entire repository and create a `.secrets.baseline` file containing any detected potential secrets.
 
-## Review and Update
+### Review and Update
 
 After creating the baseline, review the detected items:
 
@@ -85,7 +84,7 @@ detect-secrets audit .secrets.baseline
 
 This opens an interactive audit where you can mark each detected item as a real secret (to be excluded) or a false positive (to be ignored in future scans).
 
-## Adding to Git
+### Adding to Git
 
 The `.secrets.baseline` file should be committed to your repository:
 
@@ -94,7 +93,7 @@ git add .secrets.baseline
 git commit -m "Add secrets baseline for detect-secrets"
 ```
 
-## Updating the Baseline
+### Updating the Baseline
 
 When you add new legitimate "secrets" (like test API keys, example configurations, etc.), update the baseline:
 
@@ -104,21 +103,21 @@ detect-secrets scan --baseline .secrets.baseline --update
 
 Then audit the new findings and commit the updated baseline file.
 
-# `mypy`
+## `mypy`
 
 [Cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) for `mypy`
 
-# pre-commit PyTest
+## pre-commit PyTest
 
-It is possible, though [not recommended](https://github.com/pre-commit/pre-commit/issues/761#issuecomment-394167542), to run PyTest as a pre-commit hook. If you want to do it anyway, [here ](https://stackoverflow.com/questions/64011304/running-pytest-as-a-pre-commit-hook-no-such-file-or-directory-issue)are some example configurations.
+It is possible, though [not recommended](https://github.com/pre-commit/pre-commit/issues/761#issuecomment-394167542), to run PyTest as a pre-commit hook. If you want to do it anyway, [this Stack Overflow question](https://stackoverflow.com/questions/64011304/running-pytest-as-a-pre-commit-hook-no-such-file-or-directory-issue) has some example configurations.
 
-# Suggested Settings
+## Suggested Settings
 
-[link](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
+[4 pre-commit plugins to automate code reviewing and formatting in Python](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
 
 The `.pre-commit-config.yaml` I use lives in [repo-template](https://github.com/francisco-camargo/repo-template/blob/main/template/.pre-commit-config.yaml)
 
-# Code Format (old)
+## Code Format (old)
 
 guide for using `black` and `flake8` and `isort` in a `pyproject.toml`, also talks about using a `.pre-commit-config.yaml` file.
 
@@ -157,7 +156,7 @@ max-line-length = 88
 
 This prevents `flake8` from looking at files we are not interested in adding to a code repo. This also changes the maximum line length to align with `black`
 
-# docstrings
+## docstrings
 
 [guide](https://www.programiz.com/python-programming/docstrings)
 

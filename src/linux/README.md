@@ -4,19 +4,19 @@
 
 ## Shell commands
 
-* Make a directory: `mkdir [directoryname]`
-* New file: `touch [filename.extension]`
-* Check contents of file (?): `cat [filepath]`
+- Make a directory: `mkdir [directoryname]`
+- New file: `touch [filename.extension]`
+- Check contents of file (?): `cat [filepath]`
 
 ### Terminal Shortcuts
 
-* New terminal tab: **ctrl+shift+t**
-* New terminal window: **ctrl+alt+t**
-* Switch to a specific tab: **alt+[tab #]**
-* Close current tab (or window): **ctrl+shift+w**
-* Copy: **ctrl+shift+c**
-* Paste: **ctrl+shift+v**
-* But how to I highlight text? What to do the equivalent of the Windows **ctrl+shift**+[arrow]
+- New terminal tab: **ctrl+shift+t**
+- New terminal window: **ctrl+alt+t**
+- Switch to a specific tab: **alt+[tab #]**
+- Close current tab (or window): **ctrl+shift+w**
+- Copy: **ctrl+shift+c**
+- Paste: **ctrl+shift+v**
+- But how to I highlight text? What to do the equivalent of the Windows **ctrl+shift**+[arrow]
 
 ## Ubuntu
 

@@ -6,51 +6,51 @@
 
 ### AWS
 
-* [AWS CLI](src/aws/aws_cli/README.md)
-* [AWS CDK](src/aws/cdk/README.md)
-* [SageMaker](src/aws/sagemaker/README.md)
+- [AWS CLI](src/aws/aws_cli/README.md)
+- [AWS CDK](src/aws/cdk/README.md)
+- [SageMaker](src/aws/sagemaker/README.md)
 
 ### Infrastructure-as-Code
 
-* [Terraform](src/terraform/README.md)
-* [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
+- [Terraform](src/terraform/README.md)
+- [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
 
 ## Data Engineering
 
-* [Basic SQL](https://github.com/francisco-camargo/learn-sql)
-* [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
-* Data Versioning
-  * DVC (Data Version Control)
-  * Guild.ai
+- [Basic SQL](https://github.com/francisco-camargo/learn-sql)
+- [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
+- Data Versioning
+    - DVC (Data Version Control)
+    - Guild.ai
 
 ## [Docker](src/docker/README.md)
 
-* [Docker installation](src/docker/README.md)
-* [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
-  * [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
-  * [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
-  * [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
-* [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
-* [toy-db-with-docker](https://github.com/francisco-camargo/toy-db-with-docker)
-* [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)
-* [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
+- [Docker installation](src/docker/README.md)
+- [The Ultimate Docker Course](https://codewithmosh.com/p/the-ultimate-docker-course) by Mosh Hamedani
+    - [docker-hello-world](https://github.com/francisco-camargo/docker-hello-world.git)
+    - [docker-fundamentals](https://github.com/francisco-camargo/docker-fundamentals)
+    - [multi-container-application](https://github.com/francisco-camargo/vidly) via `docker compose`
+- [premade-db-with-docker](https://github.com/francisco-camargo/premade-db-with-docker)
+- [toy-db-with-docker](https://github.com/francisco-camargo/toy-db-with-docker)
+- [multi-container-database-app](https://github.com/francisco-camargo/multi-container-database-app)
+- [Docker exercises](https://github.com/bregman-arie/devops-exercises/blob/master/topics/containers/README.md)
 
 ### Docker for Python
 
-* [Python language-specific guide](https://docs.docker.com/guides/python/)
-* [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
-* [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
+- [Python language-specific guide](https://docs.docker.com/guides/python/)
+- [Docker for Python tutorial](https://github.com/patrickloeber/python-docker-tutorial.git)
+- [Optimizing Docker Images for Python Production Services](https://martynassubonis.substack.com/p/optimizing-docker-images-for-python)
 
 ## Dotfiles
 
-* [dotfiles](https://github.com/francisco-camargo/dotfiles) Claude Code configuration (`~/.claude/`) tracked in git and symlinked into place by `install.sh`, so every machine shares one source of truth
+- [dotfiles](https://github.com/francisco-camargo/dotfiles) Claude Code configuration (`~/.claude/`) tracked in git and symlinked into place by `install.sh`, so every machine shares one source of truth
 
 ## [FastAPI](src/fastapi/README.md)
 
-* [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
-* [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
-* [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
-* [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
+- [crud-fastapi](https://github.com/francisco-camargo/crud-fastapi)
+- [build-deploy-fastapi-web-backend](https://github.com/francisco-camargo/build-deploy-fastapi-web-backend)
+- [fastapi-prediction-endpoint](https://github.com/francisco-camargo/fastapi-prediction-endpoint)
+- [fastapi-app-with-docker](https://github.com/francisco-camargo/fastapi-app-with-docker)
 
 ## [git](src/git/README.md)
 
@@ -62,8 +62,8 @@
 
 ## MLOps
 
-* Orchestration
-* Monitoring
+- Orchestration
+- Monitoring
   The **LGTM stack** (short for **Loki, Grafana, Tempo, and Mimir**) is primarily used for observability, monitoring, and logging in cloud-native environments. The job roles responsible for using the LGTM stack typically include:
 
   1. **Site Reliability Engineer (SRE)** – Uses LGTM for monitoring system performance, troubleshooting issues, and ensuring uptime.
@@ -83,12 +83,12 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 
 ### PyTorch
 
-* [local-pytorch-with-docker](https://github.com/francisco-camargo/local-pytorch-with-docker)
-* [cloud-pytorch-with-docker](https://github.com/francisco-camargo/cloud-pytorch-with-docker)
+- [local-pytorch-with-docker](https://github.com/francisco-camargo/local-pytorch-with-docker)
+- [cloud-pytorch-with-docker](https://github.com/francisco-camargo/cloud-pytorch-with-docker)
 
 ## Railway
 
-* [Hello, World!](https://github.com/francisco-camargo/railway-hello-world)
+- [Hello, World!](https://github.com/francisco-camargo/railway-hello-world)
 
 ## [Vim](src/vim/README.md)
 
@@ -98,8 +98,8 @@ Would you be looking to implement LGTM for your company’s infrastructure, or j
 
 ## Misc
 
-* [Software testing](src/testing/README.md)
-* [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
-* [Georgia Tech - ISYE6644 Simulation and Statistics](https://github.com/francisco-camargo/isye6644-simulation)
-* [Georgia Tech - CS6515 Graduate Algorithms](https://github.com/francisco-camargo/cs6515-intro-grad-algo)
-* [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
+- [Software testing](src/testing/README.md)
+- [Georgia Tech - ISYE6501 Analytics Modeling](https://github.com/francisco-camargo/isye6501-analyticsmodeling)
+- [Georgia Tech - ISYE6644 Simulation and Statistics](https://github.com/francisco-camargo/isye6644-simulation)
+- [Georgia Tech - CS6515 Graduate Algorithms](https://github.com/francisco-camargo/cs6515-intro-grad-algo)
+- [Georgia Tech - CS6603 AI, Ethics, and Society](https://github.com/francisco-camargo/cs6603-ai-ethics-society)
