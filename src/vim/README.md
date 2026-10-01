@@ -23,38 +23,38 @@ To changes Vim keybingings, make changes to the `keybingings.json` file, e.g. `A
 
 ### Normal Mode
 
-* Get into command mode: `esc`
-* Enter Insert mode: `i`
-* Enter Insert mode one character ahead: `a`
-* Enter Visual mode: `v`
-* Enter Command mode: `:`
-* Moving the cursor
-    * Move up: `k`
-    * Move down: `j`
-    * Move left: `h`
-    * Move right: `l`
-* New line
-    * Below and enter insert mode: `o`
-    * Above and enter insert mode: `O`
-* Search and replace
-* [Copy and paste guide](https://phoenixnap.com/kb/cut-copy-paste-vim)
-    * Copy
-        * Everything to the right: `y$`
-        * (Almost) everything to the left: `y^`
-        * Entire line: `yy`
-        * Word with its trailing whitespace: `yaw`
-        * Word without its trailing whitespace: `yiw`
-        * `yfx`
-        * `ytx`
-    * Paste
-        * `P`
-        * `"0p` paste last yanked string, instead of paste last cut string
-    * Cut
-        * Current line: `dd`
-        * Everything to the right: `d$`
+- Get into command mode: `esc`
+- Enter Insert mode: `i`
+- Enter Insert mode one character ahead: `a`
+- Enter Visual mode: `v`
+- Enter Command mode: `:`
+- Moving the cursor
+    - Move up: `k`
+    - Move down: `j`
+    - Move left: `h`
+    - Move right: `l`
+- New line
+    - Below and enter insert mode: `o`
+    - Above and enter insert mode: `O`
+- Search and replace
+- [Copy and paste guide](https://phoenixnap.com/kb/cut-copy-paste-vim)
+    - Copy
+        - Everything to the right: `y$`
+        - (Almost) everything to the left: `y^`
+        - Entire line: `yy`
+        - Word with its trailing whitespace: `yaw`
+        - Word without its trailing whitespace: `yiw`
+        - `yfx`
+        - `ytx`
+    - Paste
+        - `P`
+        - `"0p` paste last yanked string, instead of paste last cut string
+    - Cut
+        - Current line: `dd`
+        - Everything to the right: `d$`
 
 ### Visual Mode
 
 This is the mode used to highlight text, [guide](https://phoenixnap.com/kb/cut-copy-paste-vim).
 
-* Highlight current word: `viw`
+- Highlight current word: `viw`

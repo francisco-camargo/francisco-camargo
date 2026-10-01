@@ -10,9 +10,9 @@ I use the **Dark+** color theme.
 
 Open up the command palette (**Ctrl+Shift+p**) and then choose from:
 
-* `Preferences: Open Keyboard Shortcuts`
-* `Preferences: Open Settings (UI)`
-    * To then open up `settings.json` look for the `Open Settings (JSON)` button in the top right:
+- `Preferences: Open Keyboard Shortcuts`
+- `Preferences: Open Settings (UI)`
+    - To then open up `settings.json` look for the `Open Settings (JSON)` button in the top right:
 
 ![1670895956782](../../image/README/1670895956782.png)
 

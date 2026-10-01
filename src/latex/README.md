@@ -14,4 +14,4 @@ If you don't see the bibliography right away when you compile the document, run 
 
 ## Templates
 
-* [Double column report](https://github.com/francisco-camargo/latex-template-double-column-report)
+- [Double column report](https://github.com/francisco-camargo/latex-template-double-column-report)

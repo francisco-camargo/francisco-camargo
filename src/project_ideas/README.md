@@ -1,32 +1,32 @@
 # Project Ideas
 
-* [Recommender System](https://github.com/decodingml/personalized-recommender-course)
-* [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
-* Set up db with MariaDB. Backend APIs
-* Use a free cloud hosting service
-    * Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
-* GitHub Actions / GitLab CI/CD
-* Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
-* [Docker + PyTorch video](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
-* Python project setup; `setup.py`, `.tox`, `pyproject.toml`
-    * setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
-* On Cloud
-    * Be able to develop in remote Dockerized code-base
-    * Deploy container to EC2
-    * [Deploy Docker container to VPS using Docker Swarm](https://youtu.be/ZmL46xVdYzM?si=Z12p5LcWR2byaQZV) and use docker context to work remotely (also ssh-add was used)
-* Database migration with Alembic: Chapter 6, building data science applications with fastapi
-    * FastAPI Ch 10: FastAPI app with Docker, [Bigger apps](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
-* Software for gym owners
-* App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
-* Model generalizability book
-* Mortgage rates
-    * Web scrape for mortgage rates
-    * Website where I can sign up to get an email when mortgage rates exceed some value
+- [Recommender System](https://github.com/decodingml/personalized-recommender-course)
+- [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
+- Set up db with MariaDB. Backend APIs
+- Use a free cloud hosting service
+    - Theo [guide](https://youtu.be/prjMJtXCR-g?si=r44nau8MSZ-sRmI4). Internet likes DigitalOcean
+- GitHub Actions / GitLab CI/CD
+- Efficient Docker image for Python; [guide](https://youtu.be/tc713anE3UY?si=eaMOsSrTHICPMz0u)
+- [Docker + PyTorch video](https://youtu.be/Gx_I2y3L8is?si=SEMipRHS52h9HNYU)
+- Python project setup; `setup.py`, `.tox`, `pyproject.toml`
+    - setup .tox as described in mCoding video; want to make it so that testing suite has an easy time when it needs to look for code; done by "installing" the src code
+- On Cloud
+    - Be able to develop in remote Dockerized code-base
+    - Deploy container to EC2
+    - [Deploy Docker container to VPS using Docker Swarm](https://youtu.be/ZmL46xVdYzM?si=Z12p5LcWR2byaQZV) and use docker context to work remotely (also ssh-add was used)
+- Database migration with Alembic: Chapter 6, building data science applications with fastapi
+    - FastAPI Ch 10: FastAPI app with Docker, [Bigger apps](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+- Software for gym owners
+- App that correlates food and medicine intake habits to how you are feeling; eg today I had fiber and 6hrs I feel it
+- Model generalizability book
+- Mortgage rates
+    - Web scrape for mortgage rates
+    - Website where I can sign up to get an email when mortgage rates exceed some value
 
 ## Dev on the Cloud
 
-* Use Docker for dev work
-* Use Docker to dev on local machine while hosting container on Cloud
+- Use Docker for dev work
+- Use Docker to dev on local machine while hosting container on Cloud
 
 Below is a snapshot of popular ways to get a **real VM‑style instance you can SSH or RDP into—without paying anything up‑front.**  I’ve grouped them by the kind of service you’re likely to use first.
 
@@ -43,9 +43,9 @@ Below is a snapshot of popular ways to get a **real VM‑style instance you can
 
 **When to pick one of these:**
 
-* You want full root/administrator control.
-* You need to install arbitrary software or expose custom network ports.
-* Long‑running workloads or self‑hosted services.
+- You want full root/administrator control.
+- You need to install arbitrary software or expose custom network ports.
+- Long‑running workloads or self‑hosted services.
 
 ---
 
@@ -79,10 +79,10 @@ Below is a snapshot of popular ways to get a **real VM‑style instance you can
 
 ### Quick decision tips
 
-* **Always‑free vs 12‑month promo:** If this is a long‑term personal server, Oracle Cloud or Google Cloud’s always‑free VMs are the safest bet.
-* **Windows requirement:** Azure or AWS free tiers include Windows licenses; GCP/OCI don’t.
-* **Arm experiments:** Oracle’s Ampere A1 gives you four Arm cores for free; AWS only offers a time‑limited t4g.small promo.
-* **Simplest deploy flow:** If git‑push is more important than root access, a platform like Render or Fly.io is less hassle.
+- **Always‑free vs 12‑month promo:** If this is a long‑term personal server, Oracle Cloud or Google Cloud’s always‑free VMs are the safest bet.
+- **Windows requirement:** Azure or AWS free tiers include Windows licenses; GCP/OCI don’t.
+- **Arm experiments:** Oracle’s Ampere A1 gives you four Arm cores for free; AWS only offers a time‑limited t4g.small promo.
+- **Simplest deploy flow:** If git‑push is more important than root access, a platform like Render or Fly.io is less hassle.
 
 ---
 

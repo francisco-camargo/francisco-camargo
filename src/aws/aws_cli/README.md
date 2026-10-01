@@ -133,9 +133,9 @@ When accessing resources via `boto3`, credentials are needed. The [boto3 credent
 
 2025-02-13 To run code using `boto3` via AWS SSO:
 
-* Have `.aws/config` set up for AWS SSO
-* Login to AWS SSO (e.g. `aws sso login --profile <profile>`)
-* Now can run Python code
+- Have `.aws/config` set up for AWS SSO
+- Login to AWS SSO (e.g. `aws sso login --profile <profile>`)
+- Now can run Python code
 
 ```python
 boto3.setup_default_session(profile_name)
@@ -146,9 +146,9 @@ bedrock_runtime = boto3.client(service_name)
 
 Currently I have three places of interest where a "profile" needs to be specified.
 
-* `aws sso login --profile <config profile>`
-* `git clone codecommit::<region>://<config profile>@<repo name>`
-* `boto3.setup_default_session(profile_name=<credentials profile>)`
+- `aws sso login --profile <config profile>`
+- `git clone codecommit::<region>://<config profile>@<repo name>`
+- `boto3.setup_default_session(profile_name=<credentials profile>)`
 
 The last one is used in code to interact with AWS services. When code is deployed on AWS, I am not sure how profiles are handled, or if they are even needed...
 

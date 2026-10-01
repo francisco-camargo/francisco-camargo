@@ -39,22 +39,22 @@ sudo apt install python3-pip
 
 ## Project structure
 
-* Things to consider adding/using when making a new Python project
-    * [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
-    * `README.md`
-    * `LICENSE`
-    * `.gitignore`
-    * `.gitattributes`: use to control end-of-line characters when committing to remote
-    * `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
-    * `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
-    * `.pre-commit-config.yaml`, see the [pre-commit notes](pre-commit/README.md)
-    * `.markdownlint.yaml` for Markdown file linting
-    * `uv` or `venv`: set up virtual environments
-    * `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
-    * `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
-    * logging config file
-    * `src` and `tests` directories
-    * CI config files, e.g. `.github/workflows/ci.yaml`
+- Things to consider adding/using when making a new Python project
+    - [Cookiecutter and Makefile](https://www.ianwootten.co.uk/2021/01/07/bootstrapping-python-projects-with-cookiecutter-and-makefiles/)
+    - `README.md`
+    - `LICENSE`
+    - `.gitignore`
+    - `.gitattributes`: use to control end-of-line characters when committing to remote
+    - `.gitconfig`: configure local credentials (and many other things). Do not commit to the repo!
+    - `.env`: file with environment variables that be be used by easily used containers and code (via `python-dotenv`). Be very careful to not commit sensitive information to the repo!
+    - `.pre-commit-config.yaml`, see the [pre-commit notes](pre-commit/README.md)
+    - `.markdownlint.yaml` for Markdown file linting
+    - `uv` or `venv`: set up virtual environments
+    - `pyproject.toml`: A configuration file introduced by [PEP 518](https://peps.python.org/pep-0518/) used by Python packaging tools
+    - `requirements.txt`: alternative to `pyproject.toml` to handle package dependencies
+    - logging config file
+    - `src` and `tests` directories
+    - CI config files, e.g. `.github/workflows/ci.yaml`
 
 ## Python Code Environment
 
@@ -203,7 +203,7 @@ uv run <python file>
 
 ## Testing
 
-* [Testing](testing/README.md)
+- [Testing](testing/README.md)
 
 ## Importing local code from other directories
 
@@ -238,10 +238,10 @@ If you want to do relative imports: good [write-up](https://stackoverflow.com/qu
 
 Again assume the current working directory is `folder1`:
 
-* For `script_b.py`, use `import script_b`
-* For `script_f.py`, use `import folder3.script_f`
-* For `script_e.py`, you _must_ use the `from` syntax; `from ..script_e import *`
-* For `script_c.py`, use `from ..folder2.script_c`
+- For `script_b.py`, use `import script_b`
+- For `script_f.py`, use `import folder3.script_f`
+- For `script_e.py`, you _must_ use the `from` syntax; `from ..script_e import *`
+- For `script_c.py`, use `from ..folder2.script_c`
 
 Here are some useful commands to help debug some of these issues:
 
