@@ -19,7 +19,7 @@ A config outside that path goes unread, and markdownlint falls back to its defau
 
 ### Setting up a new repo
 
-1. Copy repo-template's `template/` into the repo, as its README describes. That brings `.markdownlint.yaml`, `.pre-commit-config.yaml`, and `.editorconfig`.
+1. Copy repo-template's `template/` into the repo, as its README describes. That brings `.markdownlint.yaml` and `.pre-commit-config.yaml`.
 2. Run `pre-commit install`.
 3. Run `pre-commit run markdownlint-cli2 --all-files`, review what it fixed, fix the rest by hand, and commit.
 
@@ -30,7 +30,7 @@ To change one for a single repo, edit that repo's copy.
 
 ### Indents
 
-Pressing Tab in a Markdown file inserts 4 spaces: `.editorconfig` sets `indent_size = 4` for `*.md`, and the VS Code user settings set `editor.tabSize` to 4.
+Pressing Tab in a Markdown file inserts 4 spaces: the VS Code user settings set `editor.tabSize` to 4.
 MD007 expects the same 4 spaces for a nested list, and the hook rewrites a 2-space one.
 
 ### What markdownlint cannot check

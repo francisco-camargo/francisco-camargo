@@ -16,7 +16,6 @@ Invasive ones move files, change URLs, or change how the site deploys.
 
 ## Moderate
 
-- Bring in the repo-template files the repo lacks (`.editorconfig`)
 - Turn on private vulnerability reporting, which `SECURITY.md` tells people to use and which is off on this public repo: `gh api -X PUT repos/francisco-camargo/francisco-camargo/private-vulnerability-reporting`
 - Turn on secret scanning push protection, also off on this public repo
 - Copy the screenshot in `src/testing/README.md` into this repo; it lives in the `dev-workflow` repo's uploads, and breaks if that repo goes away
