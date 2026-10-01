@@ -1,5 +1,4 @@
-VSCode
-======
+# VSCode
 
 [Return to top README.md](../../README.md)
 
@@ -7,17 +6,17 @@ Using Sync via my personal GitHub account to sync my VSCode settings across mach
 
 I use the **Dark+** color theme.
 
-# Open Settings
+## Open Settings
 
 Open up the command palette (**Ctrl+Shift+p**) and then choose from:
 
 * `Preferences: Open Keyboard Shortcuts`
 * `Preferences: Open Settings (UI)`
-  * To then open up `settings.json` look for the `Open Settings (JSON)` button in the top right:
+    * To then open up `settings.json` look for the `Open Settings (JSON)` button in the top right:
 
 ![1670895956782](../../image/README/1670895956782.png)
 
-# VSCode Shortcuts
+## VSCode Shortcuts
 
 [Reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) of VSCode shortcuts
 
@@ -37,11 +36,11 @@ Debug console:
 
 In the Settings page, look for Line Number; I like to use relative line numbers because it makes it easier to navigate with Vim.
 
-# Using VSCode Remotely
+## Using VSCode Remotely
 
 [Guide](https://medium.com/@christyjacob4/using-vscode-remotely-on-an-ec2-instance-7822c4032cff)
 
-# Install VSCode for WSL
+## Install VSCode for WSL
 
 [Guide](https://code.visualstudio.com/docs/remote/wsl): install  VSCode in the Windows side.
 
@@ -57,11 +56,11 @@ There is some first-time automatic set-up but once VSCode is open, at the bottom
 
 Alternatively, from within VSCode on Windows side, hit the blue "Open a Remote Window" button and then select "Connect to WSL". If that doesn't work (because a docker distribution is set to default), try "Connect to WSL using Distro..." which will allow you to directly choose the Ubuntu distribution.
 
-If you get the error `ERROR: cannot verify update.code.visualstudio.com's certificate` when trying to open VSCode via `code .`, open VSCode from Windows and connect to WSL from inside VSCode. If that worked, close VSCode from Windows, and try to open it again from WSL via `code .`, [link](https://stackoverflow.com/a/76841961/9205210).
+If you get the error `ERROR: cannot verify update.code.visualstudio.com's certificate` when trying to open VSCode via `code .`, open VSCode from Windows and connect to WSL from inside VSCode. If that worked, close VSCode from Windows, and try to open it again from WSL via `code .` ([Stack Overflow answer](https://stackoverflow.com/a/76841961/9205210)).
 
 ![1706044631466](image/README/1706044631466.png)
 
-# Docker Dev Environment
+## Docker Dev Environment
 
 Open the remote VSCode window (bottom right)
 
@@ -83,7 +82,7 @@ Changes in this containarized instance of VSCode will be reflected in the host m
 
 Some [info](https://github.com/patrickloeber/python-docker-tutorial/tree/main/dev-environment#7-debug-python-code-inside-a-container) on debugging
 
-## Dev Containers
+### Dev Containers
 
 TLDR: I don't love dev containers
 
@@ -93,7 +92,7 @@ Install the Remote Development extension pack, which includes Dev Containers. Le
 
 ![1705460722378](image/README/1705460722378.png)
 
-## Delayed `--reload`
+### Delayed `--reload`
 
 Due to the delayed `--reload` (see subsection below), it's worth it to *clone the repo within WSL* and launch `docker-compose` from there, instead of directly from Windows. This will remove delay observed between making a change is made to the code and seeing the change take effect in the web application!
 
