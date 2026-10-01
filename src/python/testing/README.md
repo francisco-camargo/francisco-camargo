@@ -1,5 +1,4 @@
-Python Testing
-==============
+# Python Testing
 
 [Return to top README.md](../../../README.md)
 
