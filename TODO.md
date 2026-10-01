@@ -16,7 +16,7 @@ Invasive ones move files, change URLs, or change how the site deploys.
 
 ## Moderate
 
-- Bring in the repo-template files the repo lacks (`.gitignore`, `.editorconfig`, `SECURITY.md`)
+- Bring in the repo-template files the repo lacks (`.editorconfig`)
 - Turn on secret scanning push protection and private vulnerability reporting, both off on this public repo
 - Copy the screenshot in `src/testing/README.md` into this repo; it lives in the `dev-workflow` repo's uploads, and breaks if that repo goes away
 - Add a way to reach you to `README.md`: email, LinkedIn, or a resume link
