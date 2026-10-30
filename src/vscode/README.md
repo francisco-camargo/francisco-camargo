@@ -88,7 +88,7 @@ TLDR: I don't love dev containers
 
 Following [this](https://youtu.be/SDa3v4Quj7Y?si=d_Xm9Kh_TnlIWXoJ) video guide
 
-Install the Remote Development extension pack, which includes Dev Containers. Let's use the "Clone Repoository in Container Volume..." option.
+Install the Remote Development extension pack, which includes Dev Containers. Let's use the "Clone Repository in Container Volume..." option.
 
 ![1705460722378](image/README/1705460722378.png)
 
