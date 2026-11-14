@@ -26,24 +26,6 @@ Invasive ones move files, change URLs, or change how the site deploys.
 
 ## Invasive
 
-### Rename `master` to `main`
-
-Rename the default branch from `master` to `main`.
-
-Take care: GitHub Pages builds <https://francisco-camargo.github.io/francisco-camargo/> from `master`.
-Pages uses the legacy build (source: branch `master`, path `/`), set in the repo's Pages settings rather than in a workflow file.
-
-Steps:
-
-- Rename the branch on GitHub (Settings > Branches), which retargets open pull requests and branch protection rules
-- Check that the `protect-main` ruleset now targets `main`; it names `refs/heads/master` outright, and may not follow the rename
-- Check that Settings > Pages now builds from `main`, and set it if not
-- Confirm the site still loads and shows the latest content
-- Point local clones at the new branch: `git fetch origin`, `git branch -m master main`, `git branch -u origin/main main`, `git remote set-head origin -a`
-- Search the repo and the other repos for links or scripts that name `master`
-
-### Other
-
 - Build the site with a GitHub Actions workflow instead of the legacy build, so the build lives in the repo, can pin its Jekyll version, and can check links on every push
 - Keep each page's images beside it (as `src/python` does) rather than in the top-level `image/README/`, which `src/git` and `src/vscode` reach into
 - Move the learning notes under `src/` to their own repo, so this one, which doubles as the GitHub profile README, stays about you and your projects; every notes URL would change
