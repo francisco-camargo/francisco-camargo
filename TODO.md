@@ -13,6 +13,7 @@ Invasive ones move files, change URLs, or change how the site deploys.
 - Remove the citation section from `README.md`, or give it a real title; "Title: Francisco Camargo" and a blank "Date Accessed" read as a template left unfilled
 - Update the `dev_workflow` paths in `src/linux/README.md`, since the repo is now `dev-workflow`
 - Set the repo's homepage (the About box) to the Pages site; it points at the GitHub profile now
+- Convert the notes to one sentence per line, one file per commit; they are hard-wrapped, and some lines hold several sentences
 
 ## Moderate
 
