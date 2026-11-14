@@ -1,5 +1,7 @@
 # Project Ideas
 
+[Return to top README.md](../../README.md)
+
 - [Recommender System](https://github.com/decodingml/personalized-recommender-course)
 - [7 MLOPs Projects for Beginners](https://www.kdnuggets.com/7-mlops-projects-beginners)
 - Set up db with MariaDB. Backend APIs
