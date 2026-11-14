@@ -97,7 +97,7 @@ Using this method of entering my credentials, I did not have to enter my credent
 
 made a new PAT (previous one had expired). I get to the pop-up window (seen above), and I was able to connect via a  `git bash` terminal within VSCode by logging-in with my github email (not the no-reply one) and used my new PAT as the password
 
-However if this is a problem. I don't want to have to enter my username and password (PAT) every time, so follow this [guide](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/) or maybe [this](https://www.techiediaries.com/git/stop-git-always-asking-for-username-and-password-when-using-https/) guide and essentially run the following commands (at the moment, not sure that I've gotten any of this to work...):
+However if this is a problem. I don't want to have to enter my username and password (PAT) every time, so follow freeCodeCamp's [How to fix Git always asking for user credentials](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/) or Techiediaries' [Stop Git always asking for username and password when using HTTPS](https://www.techiediaries.com/git/stop-git-always-asking-for-username-and-password-when-using-https/) and essentially run the following commands (at the moment, not sure that I've gotten any of this to work...):
 
 ```bash
 git config --global credential.helper store

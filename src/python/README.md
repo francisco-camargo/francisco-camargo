@@ -367,7 +367,7 @@ Want to be able to use sklearn without having to switch back and forth between n
 
 I created a custom class to use as part of a feature engineering `Pipeline` and was getting this warning. One way to get this warning to go away is to add an `Estimator` at the end of the `Pipeline` but that is undesirable as I want this pipeline to be dedicated to feature engineering.
 
-[This](https://stackoverflow.com/a/79479302/9205210) post has as solution that I think is better. Essentially, in variables defined within the custom class, name them with an underscore suffix.
+[A Stack Overflow answer on this warning](https://stackoverflow.com/a/79479302/9205210) has a solution that I think is better. Essentially, in variables defined within the custom class, name them with an underscore suffix.
 
 ```python
 class CustomClass(BaseEstimator, TransformerMixin):

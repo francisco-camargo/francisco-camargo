@@ -86,7 +86,7 @@ Some [info](https://github.com/patrickloeber/python-docker-tutorial/tree/main/de
 
 TLDR: I don't love dev containers
 
-Following [this](https://youtu.be/SDa3v4Quj7Y?si=d_Xm9Kh_TnlIWXoJ) video guide
+Following the video [My Favorite Way To Handle Dev Environments | VS Code Devcontainers](https://youtu.be/SDa3v4Quj7Y?si=d_Xm9Kh_TnlIWXoJ)
 
 Install the Remote Development extension pack, which includes Dev Containers. Let's use the "Clone Repository in Container Volume..." option.
 
@@ -96,4 +96,4 @@ Install the Remote Development extension pack, which includes Dev Containers. Le
 
 Due to the delayed `--reload` (see subsection below), it's worth it to *clone the repo within WSL* and launch `docker-compose` from there, instead of directly from Windows. This will remove delay observed between making a change is made to the code and seeing the change take effect in the web application!
 
-I have noticed that when a change is made to the code in the host machine, it takes several seconds before the change is picked up by the containerized instance of `uvicorn` when using the `--reload` flag. [This](https://youtu.be/SDa3v4Quj7Y?si=IauV72FmPa4kyS8r&t=384) video explains a possible reason why. The solution is to clone repos directly into WSL.
+I have noticed that when a change is made to the code in the host machine, it takes several seconds before the change is picked up by the containerized instance of `uvicorn` when using the `--reload` flag. [The same video at 6:24](https://youtu.be/SDa3v4Quj7Y?si=IauV72FmPa4kyS8r&t=384) explains a possible reason why. The solution is to clone repos directly into WSL.
