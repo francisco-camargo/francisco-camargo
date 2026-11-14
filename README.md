@@ -1,4 +1,7 @@
-# [Learning &amp; Reference Material](learning_material.md)
+# Francisco Camargo
+
+Data scientist and machine learning engineer.
+This repo is my GitHub profile, and holds my coursework projects and my [learning and reference material](learning_material.md): notes on cloud, Python, git, and the tools I use.
 
 ## Projects
 
