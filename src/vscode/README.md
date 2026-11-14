@@ -6,7 +6,7 @@ Using Sync via my personal GitHub account to sync my VSCode settings across mach
 
 I use the **Dark+** color theme.
 
-## Open Settings
+## Open settings
 
 Open up the command palette (**Ctrl+Shift+p**) and then choose from:
 
@@ -16,7 +16,7 @@ Open up the command palette (**Ctrl+Shift+p**) and then choose from:
 
 ![1670895956782](../../image/README/1670895956782.png)
 
-## VSCode Shortcuts
+## VSCode shortcuts
 
 [Reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) of VSCode shortcuts
 
@@ -36,7 +36,7 @@ Debug console:
 
 In the Settings page, look for Line Number; I like to use relative line numbers because it makes it easier to navigate with Vim.
 
-## Using VSCode Remotely
+## Using VSCode remotely
 
 [Guide](https://medium.com/@christyjacob4/using-vscode-remotely-on-an-ec2-instance-7822c4032cff)
 
@@ -60,7 +60,7 @@ If you get the error `ERROR: cannot verify update.code.visualstudio.com's certif
 
 ![1706044631466](image/README/1706044631466.png)
 
-## Docker Dev Environment
+## Docker dev environment
 
 Open the remote VSCode window (bottom right)
 

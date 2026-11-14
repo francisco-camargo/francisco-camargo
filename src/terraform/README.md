@@ -8,7 +8,7 @@
 
 [AWS Docs](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
 
-### Manual Install on Windows
+### Manual install on Windows
 
 Download and unzip the `terraform` binary. Decided where to store it, eg.
 

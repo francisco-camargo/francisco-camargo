@@ -38,7 +38,7 @@ MD007 expects the same 4 spaces for a nested list, and the hook rewrites a 2-spa
 markdownlint checks Markdown syntax, not prose.
 One sentence per line, em dashes, and wording need a prose linter, which dotfiles' [Check prose with Vale](https://github.com/francisco-camargo/dotfiles/blob/main/TODO.md#check-prose-with-vale) plans.
 
-## Code Blocks
+## Code blocks
 
 Formatting code block [guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks), [list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)of available tags
 
@@ -98,7 +98,7 @@ $y=mx+b$
 displays as
 $y=mx+b$
 
-## YAML Header
+## YAML header
 
 [Guide](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html)
 
@@ -118,7 +118,7 @@ Additionally, here the setting I use:
 
 ![1742135526567](image/README/1742135526567.png)
 
-### PDF Options
+### PDF options
 
 Here I have changed the output font size and margin spacing.
 

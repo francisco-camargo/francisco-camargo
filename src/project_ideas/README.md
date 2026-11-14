@@ -1,4 +1,4 @@
-# Project Ideas
+# Project ideas
 
 [Return to top README.md](../../README.md)
 
@@ -25,7 +25,7 @@
     - Web scrape for mortgage rates
     - Website where I can sign up to get an email when mortgage rates exceed some value
 
-## Dev on the Cloud
+## Dev on the cloud
 
 - Use Docker for dev work
 - Use Docker to dev on local machine while hosting container on Cloud

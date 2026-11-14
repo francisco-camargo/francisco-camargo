@@ -1,4 +1,4 @@
-# Learning & Reference Material
+# Learning & reference material
 
 [Return to top README.md](README.md)
 
@@ -17,7 +17,7 @@
 - [Terraform](src/terraform/README.md)
 - [opentofu-aws-hello-world](https://github.com/francisco-camargo/opentofu-aws-hello-world)
 
-## Data Engineering
+## Data engineering
 
 - [Basic SQL](https://github.com/francisco-camargo/learn-sql)
 - [Georgia Tech - CS6400 Database Design](https://github.com/francisco-camargo/cs6400-database-design-tradeplaza)
@@ -77,9 +77,9 @@
 
 Would you be looking to implement LGTM for your company’s infrastructure, or just exploring it?
 
-## [Model Generalizability](src/model_generalizability/README.md)
+## [Model generalizability](src/model_generalizability/README.md)
 
-## [Project Ideas](src/project_ideas/README.md)
+## [Project ideas](src/project_ideas/README.md)
 
 ## [Python](src/python/README.md)
 
