@@ -2,7 +2,7 @@
 
 [Return to top README.md](../../README.md)
 
-## Unit Testing
+## Unit testing
 
 The [TSLgenerator](https://github.com/alexorso/tslgenerator) tool helps convert domain boundaries of a problem into a suite of unit tests.
 

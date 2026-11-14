@@ -87,7 +87,7 @@ A Stack is made up of Constructs, here are references for a few
 - [Function](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html)
 - [Bucket](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_s3/Bucket.html)
 
-## Synthesize and Deploy
+## Synthesize and deploy
 
 Run
 

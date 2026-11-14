@@ -71,7 +71,7 @@ Within GitHub go to settings and then "SSH and GPG keys". Click "New SSH key", g
 
 If it is all working, use `git clone` using the SSH address provided to you by GitHub.
 
-## GitHub HTTPS Credentials
+## GitHub HTTPS credentials
 
 Here are the credentials I use when working with a personal GitHub repo.
 
@@ -97,7 +97,7 @@ Using this method of entering my credentials, I did not have to enter my credent
 
 made a new PAT (previous one had expired). I get to the pop-up window (seen above), and I was able to connect via a  `git bash` terminal within VSCode by logging-in with my github email (not the no-reply one) and used my new PAT as the password
 
-However if this is a problem. I don't want to have to enter my username and password (PAT) every time, so follow this [guide](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/) or maybe [this](https://www.techiediaries.com/git/stop-git-always-asking-for-username-and-password-when-using-https/) guide and essentially run the following commands (at the moment, not sure that I've gotten any of this to work...):
+However if this is a problem. I don't want to have to enter my username and password (PAT) every time, so follow freeCodeCamp's [How to fix Git always asking for user credentials](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/) or Techiediaries' [Stop Git always asking for username and password when using HTTPS](https://www.techiediaries.com/git/stop-git-always-asking-for-username-and-password-when-using-https/) and essentially run the following commands (at the moment, not sure that I've gotten any of this to work...):
 
 ```bash
 git config --global credential.helper store
@@ -120,7 +120,7 @@ One machine started asking for credentials whenever I wanted to work locally. I 
 
 Now I tried to clone the repo of interest, was asked for credentials and use my username and the PAT as the password. Still have to do this twice for some reason...
 
-## BitBucket Credentials
+## BitBucket credentials
 
 Using a personal BitBucket account use the Username found within the "Account Settings" page of BitBucket, found within the "Personal settings" page which can be accessed by clicking on the profile icon in the top left.
 
@@ -128,7 +128,7 @@ Using a personal BitBucket account use the Username found within the "Account Se
 
 For the password, use an [App password](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/) which you can do from the "App passwords" page within "Personal settings".
 
-### Transfer Repo from BitBucket to GitHub
+### Transfer repo from BitBucket to GitHub
 
 [Guide](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) from GitHub. However, when you are asked to login with your BitBucket credentials within the GitHub website, use your BitBucket [username](https://bitbucket.org/account/settings/) and [app-password](https://bitbucket.org/account/settings/app-passwords/), as [a comment on mandiwise's gist](https://gist.github.com/mandiwise/5954bbb2e95c011885ff?permalink_comment_id=3756611#gistcomment-3756611) explains. [Guide](https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/) to generating a BitBucket app-password.
 
@@ -216,7 +216,7 @@ eg.
 github.com/francisco-camargo/vidly/compare/04f5f58...e892d14
 ```
 
-## Git End-of-Line handling
+## Git end-of-line handling
 
 By default, when committing changes, `git` converts end-of-line characters depending on the OS. For example, if on a Windows machines, EOL will be changed to CRLF. Better Stack has [a guide to changing this `git` setting locally](https://betterstack.com/community/questions/git-replacing-lf-with-crlf/).
 

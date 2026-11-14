@@ -1,8 +1,11 @@
-# [Learning &amp; Reference Material](learning_material.md)
+# Francisco Camargo
+
+Data scientist and machine learning engineer.
+This repo is my GitHub profile, and holds my coursework projects and my [learning and reference material](learning_material.md): notes on cloud, Python, git, and the tools I use.
 
 ## Projects
 
-### Machine Learning
+### Machine learning
 
 The following are private repos, access granted upon request
 
@@ -32,7 +35,7 @@ The following are private repos, access granted upon request
     - [Ice Rover](https://github.com/francisco-camargo/cs7638-ai4r-p5-icerover)
 - [Georgia Tech - CS7646 Machine Learning for Trading](https://github.com/francisco-camargo/cs7646-ml4t)
 
-## Citation Instructions
+## Citation instructions
 
 If you use this repository in your work, please cite it as follows:
 

@@ -2,7 +2,7 @@
 
 [Return to top README.md](../../../README.md)
 
-## Docker Image
+## Docker image
 
 [amazon/aws-cli on Docker Hub](https://hub.docker.com/r/amazon/aws-cli)
 
@@ -66,7 +66,7 @@ Click on "Command line or programmatic access"
 
 By default, `boto3` will use the default `credentials` profile. To use another profile, you have to point to it somehow, here are some [options](https://stackoverflow.com/questions/33378422/how-to-choose-an-aws-profile-when-using-boto3-to-connect-to-cloudfront)
 
-## SSO Log In
+## SSO log in
 
 To login
 

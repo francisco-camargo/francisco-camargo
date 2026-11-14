@@ -8,7 +8,7 @@
 - New file: `touch [filename.extension]`
 - Check contents of file (?): `cat [filepath]`
 
-### Terminal Shortcuts
+### Terminal shortcuts
 
 - New terminal tab: **ctrl+shift+t**
 - New terminal window: **ctrl+alt+t**

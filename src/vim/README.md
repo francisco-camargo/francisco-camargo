@@ -19,9 +19,9 @@ To changes Vim keybingings, make changes to the `keybingings.json` file, e.g. `A
 
 [Guide](https://hoitz.medium.com/improved-vim-setup-in-visual-studio-code-bc579501b80c) on how to customize Vim keybindings within VSCode.
 
-## Vim Commands
+## Vim commands
 
-### Normal Mode
+### Normal mode
 
 - Get into command mode: `esc`
 - Enter Insert mode: `i`
@@ -53,7 +53,7 @@ To changes Vim keybingings, make changes to the `keybingings.json` file, e.g. `A
         - Current line: `dd`
         - Everything to the right: `d$`
 
-### Visual Mode
+### Visual mode
 
 This is the mode used to highlight text, [guide](https://phoenixnap.com/kb/cut-copy-paste-vim).
 

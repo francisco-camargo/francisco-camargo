@@ -64,7 +64,7 @@ pre-commit autoupdate
 
 The `detect-secrets` hook requires a baseline file to work properly. This file contains a record of all current "secrets" in your codebase that have been reviewed and approved.
 
-### Initial Setup
+### Initial setup
 
 Before running pre-commit for the first time with detect-secrets, create the baseline file:
 
@@ -74,7 +74,7 @@ detect-secrets scan --baseline .secrets.baseline
 
 This will scan your entire repository and create a `.secrets.baseline` file containing any detected potential secrets.
 
-### Review and Update
+### Review and update
 
 After creating the baseline, review the detected items:
 
@@ -93,7 +93,7 @@ git add .secrets.baseline
 git commit -m "Add secrets baseline for detect-secrets"
 ```
 
-### Updating the Baseline
+### Updating the baseline
 
 When you add new legitimate "secrets" (like test API keys, example configurations, etc.), update the baseline:
 
@@ -111,13 +111,13 @@ Then audit the new findings and commit the updated baseline file.
 
 It is possible, though [not recommended](https://github.com/pre-commit/pre-commit/issues/761#issuecomment-394167542), to run PyTest as a pre-commit hook. If you want to do it anyway, [this Stack Overflow question](https://stackoverflow.com/questions/64011304/running-pytest-as-a-pre-commit-hook-no-such-file-or-directory-issue) has some example configurations.
 
-## Suggested Settings
+## Suggested settings
 
 [4 pre-commit plugins to automate code reviewing and formatting in Python](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
 
 The `.pre-commit-config.yaml` I use lives in [repo-template](https://github.com/francisco-camargo/repo-template/blob/main/template/.pre-commit-config.yaml)
 
-## Code Format (old)
+## Code format (old)
 
 guide for using `black` and `flake8` and `isort` in a `pyproject.toml`, also talks about using a `.pre-commit-config.yaml` file.
 

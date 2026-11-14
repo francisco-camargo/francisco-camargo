@@ -56,7 +56,7 @@ sudo apt install python3-pip
     - `src` and `tests` directories
     - CI config files, e.g. `.github/workflows/ci.yaml`
 
-## Python Code Environment
+## Python code environment
 
 Download and install Python from [python.org](https://www.python.org/downloads/)
 
@@ -130,7 +130,7 @@ uv version
 
 This ran in PowerShell and git bash
 
-#### New Project
+#### New project
 
 To start a new project, run
 
@@ -154,7 +154,7 @@ uv init
 
 This creates several files, including `pyproject.toml`
 
-#### Virtual Environment and Package Management
+#### Virtual environment and package management
 
 To create a virtual environment (equivalent to `python -m venv .venv`), run
 
@@ -317,13 +317,13 @@ I can plot out-of-the box to a pop-up window in VSCode if I use Run, but if I us
 
 In `./src/plotting.py` I placed sample code for a plotting function that handles the aesthetics well. It Accounts for; uncertainty bands, `.eps` formatting, size of plot for two column paper, and several other minor details.
 
-## Data Validation
+## Data validation
 
 [Pydantic](https://www.youtube.com/watch?v=zN4VCb0LbQI)
 
 ## Pandas
 
-### Data Types for DataFrames
+### Data types for DataFrames
 
 [Guide](https://youtu.be/-tU7fuUiq7w)
 
@@ -367,7 +367,7 @@ Want to be able to use sklearn without having to switch back and forth between n
 
 I created a custom class to use as part of a feature engineering `Pipeline` and was getting this warning. One way to get this warning to go away is to add an `Estimator` at the end of the `Pipeline` but that is undesirable as I want this pipeline to be dedicated to feature engineering.
 
-[This](https://stackoverflow.com/a/79479302/9205210) post has as solution that I think is better. Essentially, in variables defined within the custom class, name them with an underscore suffix.
+[A Stack Overflow answer on this warning](https://stackoverflow.com/a/79479302/9205210) has a solution that I think is better. Essentially, in variables defined within the custom class, name them with an underscore suffix.
 
 ```python
 class CustomClass(BaseEstimator, TransformerMixin):
@@ -381,7 +381,7 @@ class CustomClass(BaseEstimator, TransformerMixin):
 
 It seems like this works even if I only apply an underscore suffix to one (and not all) the attributes. Also not sure if it matter if it's a method instead. I don't understand why this works in the first place, but I can live with it and it enables the use of custom transformers to be used in `Pipelines`!
 
-## Experimental Setup
+## Experimental setup
 
 [Guide](https://hydra.cc/docs/intro/) into how to use Hydra to help run experiments using Python.
 

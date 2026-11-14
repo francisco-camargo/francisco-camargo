@@ -1,9 +1,11 @@
-# Model Generalizability
+# Model generalizability
+
+[Return to top README.md](../../README.md)
 
 - Write blogs / book??
 - Write about model generalizability and model debug and correction / improvement strategies
 
-## Chapter Ideas
+## Chapter ideas
 
 - What we desire is generalizable models; models that perform well on unseen/inference data. [MIT CSAIL paper](https://people.csail.mit.edu/delimitrou/papers/2024.cal.generalizability.pdf), [RudderStack's explainer](https://www.rudderstack.com/learn/machine-learning/generalization-in-machine-learning/), [PMC9885377](https://pmc.ncbi.nlm.nih.gov/articles/PMC9885377/), [Toronto CSC321 notes](https://www.cs.toronto.edu/~lczhang/321/notes/notes09.pdf), [IEEE Computer Architecture Letters paper](https://www.computer.org/csdl/journal/ca/2024/01/10488711/1VORtAtSeuA), [arXiv 2202.01337](https://arxiv.org/pdf/2202.01337)
 - Most underappreciated concept in Machine Learning
